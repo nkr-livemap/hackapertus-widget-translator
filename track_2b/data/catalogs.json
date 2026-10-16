@@ -1,0 +1,7785 @@
+{
+ "version": 1,
+ "catalogs": [
+  {
+   "id": "components/strings",
+   "file": "packages/widget-runtime/src/components/strings.ts",
+   "context": "",
+   "keys": [
+    {
+     "key": "kicker",
+     "kind": "text",
+     "params": [],
+     "en": "Do you like this widget?",
+     "de": "Gefällt dir dieses Widget?"
+    },
+    {
+     "key": "moods.notAtAll",
+     "kind": "text",
+     "params": [],
+     "en": "Not at all",
+     "de": "Gar nicht"
+    },
+    {
+     "key": "moods.meh",
+     "kind": "text",
+     "params": [],
+     "en": "Meh",
+     "de": "Geht so"
+    },
+    {
+     "key": "moods.kindOf",
+     "kind": "text",
+     "params": [],
+     "en": "Kind of",
+     "de": "Etwas"
+    },
+    {
+     "key": "moods.loveIt",
+     "kind": "text",
+     "params": [],
+     "en": "Love it",
+     "de": "Sehr"
+    },
+    {
+     "key": "reasons.prompt",
+     "kind": "text",
+     "params": [],
+     "en": "What was off?",
+     "de": "Was hat gestört?"
+    },
+    {
+     "key": "reasons.notClearWhatItDoes",
+     "kind": "text",
+     "params": [],
+     "en": "Not clear what it does",
+     "de": "Nicht klar, was es macht"
+    },
+    {
+     "key": "reasons.missingInfo",
+     "kind": "text",
+     "params": [],
+     "en": "Missing info",
+     "de": "Info fehlt"
+    },
+    {
+     "key": "reasons.wrongInfo",
+     "kind": "text",
+     "params": [],
+     "en": "Wrong info",
+     "de": "Falsche Info"
+    },
+    {
+     "key": "reasons.somethingDidNotWork",
+     "kind": "text",
+     "params": [],
+     "en": "Something didn't work",
+     "de": "Etwas hat nicht funktioniert"
+    },
+    {
+     "key": "reasons.somethingElse",
+     "kind": "text",
+     "params": [],
+     "en": "Something else",
+     "de": "Etwas anderes"
+    },
+    {
+     "key": "note.happenedPlaceholder",
+     "kind": "text",
+     "params": [],
+     "en": "Tell us what happened",
+     "de": "Erzähl uns, was passiert ist"
+    },
+    {
+     "key": "note.morePlaceholder",
+     "kind": "text",
+     "params": [],
+     "en": "Tell us more",
+     "de": "Erzähl uns mehr"
+    },
+    {
+     "key": "note.requiredHint",
+     "kind": "text",
+     "params": [],
+     "en": "Tell us a bit more about what happened so we can look into it.",
+     "de": "Erzähl uns noch etwas mehr darüber, was passiert ist, damit wir es prüfen können."
+    },
+    {
+     "key": "actions.cancel",
+     "kind": "text",
+     "params": [],
+     "en": "Cancel",
+     "de": "Abbrechen"
+    },
+    {
+     "key": "actions.sending",
+     "kind": "text",
+     "params": [],
+     "en": "Sending…",
+     "de": "Wird gesendet…"
+    },
+    {
+     "key": "actions.tryAgain",
+     "kind": "text",
+     "params": [],
+     "en": "Try again",
+     "de": "Erneut versuchen"
+    },
+    {
+     "key": "actions.send",
+     "kind": "text",
+     "params": [],
+     "en": "Send",
+     "de": "Senden"
+    },
+    {
+     "key": "sent",
+     "kind": "text",
+     "params": [],
+     "en": "Thanks – that will help us improve the widget.",
+     "de": "Danke – das hilft uns, das Widget zu verbessern."
+    },
+    {
+     "key": "error",
+     "kind": "text",
+     "params": [],
+     "en": "Could not send right now. Try again in a moment.",
+     "de": "Senden fehlgeschlagen. Bitte versuche es erneut."
+    }
+   ]
+  },
+  {
+   "id": "widgets/ari/strings",
+   "file": "packages/widget-runtime/src/widgets/ari/strings.ts",
+   "context": "",
+   "keys": [
+    {
+     "key": "checkingWidgets",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is looking into it",
+     "de": "Ari schaut für dich nach"
+    },
+    {
+     "key": "selectingAnswer",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is looking for you",
+     "de": "Ari sucht für dich"
+    },
+    {
+     "key": "resolvingSelection",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is opening your choice",
+     "de": "Ari löst deine Auswahl auf"
+    },
+    {
+     "key": "loadingAnswer",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is loading your answer",
+     "de": "Ari lädt deine Antwort"
+    },
+    {
+     "key": "refreshingAnswer",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is refreshing your answer",
+     "de": "Ari holt eine frische Antwort"
+    },
+    {
+     "key": "queued",
+     "kind": "text",
+     "params": [],
+     "en": "Ari has queued your request",
+     "de": "Ari merkt sich die Aufgabe"
+    },
+    {
+     "key": "selectingTemplate",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is looking for you",
+     "de": "Ari sucht für dich"
+    },
+    {
+     "key": "searchingAlternative",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is exploring the options",
+     "de": "Ari schaut sich die Möglichkeiten an"
+    },
+    {
+     "key": "searchingAnother",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is finding some answers",
+     "de": "Ari findet Antworten für dich"
+    },
+    {
+     "key": "building",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is putting your answer together",
+     "de": "Ari stellt deine Antwort zusammen"
+    },
+    {
+     "key": "validating",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is checking the answer",
+     "de": "Ari prüft die Antwort"
+    },
+    {
+     "key": "publishing",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is saving the answer",
+     "de": "Ari speichert die Antwort"
+    },
+    {
+     "key": "cancel",
+     "kind": "text",
+     "params": [],
+     "en": "Cancel",
+     "de": "Abbrechen"
+    },
+    {
+     "key": "unreachable",
+     "kind": "text",
+     "params": [],
+     "en": "Ari is currently unavailable.",
+     "de": "Ari ist gerade nicht erreichbar."
+    },
+    {
+     "key": "cancelled",
+     "kind": "text",
+     "params": [],
+     "en": "The request was cancelled.",
+     "de": "Die Aufgabe wurde abgebrochen."
+    },
+    {
+     "key": "cancelFailed",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t cancel the request.",
+     "de": "Abbrechen ist fehlgeschlagen."
+    },
+    {
+     "key": "loadFailed",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t load the answer.",
+     "de": "Antwort kann nicht geladen werden."
+    },
+    {
+     "key": "ask",
+     "kind": "text",
+     "params": [],
+     "en": "Ask Ari …",
+     "de": "Frag Ari …"
+    },
+    {
+     "key": "editExample",
+     "kind": "text",
+     "params": [],
+     "en": "Try “make it blue”",
+     "de": "Zum Beispiel «mach es blau»"
+    },
+    {
+     "key": "send",
+     "kind": "text",
+     "params": [],
+     "en": "Send",
+     "de": "Senden"
+    },
+    {
+     "key": "clear",
+     "kind": "text",
+     "params": [],
+     "en": "Clear question",
+     "de": "Frage löschen"
+    },
+    {
+     "key": "info",
+     "kind": "text",
+     "params": [],
+     "en": "Chats and widgets",
+     "de": "Chats und Widgets"
+    },
+    {
+     "key": "back",
+     "kind": "text",
+     "params": [],
+     "en": "Back",
+     "de": "Zurück"
+    },
+    {
+     "key": "unavailable",
+     "kind": "text",
+     "params": [],
+     "en": "No data answer",
+     "de": "Keine Datenantwort"
+    },
+    {
+     "key": "askChat",
+     "kind": "text",
+     "params": [],
+     "en": "Ask Ari in chat",
+     "de": "Ari im Chat fragen"
+    },
+    {
+     "key": "customize",
+     "kind": "text",
+     "params": [],
+     "en": "Customize",
+     "de": "Anpassen"
+    },
+    {
+     "key": "refresh",
+     "kind": "text",
+     "params": [],
+     "en": "Refresh",
+     "de": "Aktualisieren"
+    },
+    {
+     "key": "source",
+     "kind": "text",
+     "params": [],
+     "en": "Source",
+     "de": "Quelle"
+    },
+    {
+     "key": "asOf",
+     "kind": "text",
+     "params": [],
+     "en": "as of",
+     "de": "Stand"
+    },
+    {
+     "key": "foundPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "Found places",
+     "de": "Gefundene Orte"
+    },
+    {
+     "key": "perPlaceAsOf",
+     "kind": "text",
+     "params": [],
+     "en": "data timestamps per place",
+     "de": "Datenstände je Ort"
+    },
+    {
+     "key": "newChat",
+     "kind": "text",
+     "params": [],
+     "en": "New chat",
+     "de": "Neuer Chat"
+    },
+    {
+     "key": "notifyMe",
+     "kind": "text",
+     "params": [],
+     "en": "Notify me when it’s ready",
+     "de": "Benachrichtige mich, wenn es fertig ist"
+    },
+    {
+     "key": "save.idle",
+     "kind": "text",
+     "params": [],
+     "en": "Add to wall",
+     "de": "Zur Wand hinzufügen"
+    },
+    {
+     "key": "save.saving",
+     "kind": "text",
+     "params": [],
+     "en": "Saving …",
+     "de": "Speichern …"
+    },
+    {
+     "key": "save.saved",
+     "kind": "text",
+     "params": [],
+     "en": "Added to wall",
+     "de": "Gespeichert"
+    },
+    {
+     "key": "save.alreadySaved",
+     "kind": "text",
+     "params": [],
+     "en": "Already on the grid",
+     "de": "Schon auf dem Grid"
+    },
+    {
+     "key": "save.failed",
+     "kind": "text",
+     "params": [],
+     "en": "Save failed. Try again",
+     "de": "Speichern fehlgeschlagen. Nochmal versuchen"
+    },
+    {
+     "key": "save.unavailable",
+     "kind": "text",
+     "params": [],
+     "en": "Saving is not available here",
+     "de": "Speichern hier nicht möglich"
+    },
+    {
+     "key": "save.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Open Ari from your grid to save this widget",
+     "de": "Öffne Ari aus deinem Grid, um dieses Widget zu speichern"
+    },
+    {
+     "key": "save.revoked",
+     "kind": "text",
+     "params": [],
+     "en": "No longer available",
+     "de": "Nicht mehr verfügbar"
+    },
+    {
+     "key": "save.conflict",
+     "kind": "text",
+     "params": [],
+     "en": "Wall changed meanwhile. Ask again",
+     "de": "Wand hat sich geändert. Frag nochmal"
+    },
+    {
+     "key": "grid.newWall",
+     "kind": "text",
+     "params": [],
+     "en": "New wall",
+     "de": "Neue Wand"
+    },
+    {
+     "key": "grid.changesTo",
+     "kind": "text",
+     "params": [],
+     "en": "Changes to",
+     "de": "Änderungen an"
+    },
+    {
+     "key": "grid.saveNew",
+     "kind": "text",
+     "params": [],
+     "en": "Save as new wall",
+     "de": "Als neue Wand speichern"
+    },
+    {
+     "key": "grid.saveExisting",
+     "kind": "text",
+     "params": [],
+     "en": "Update wall",
+     "de": "Wand aktualisieren"
+    },
+    {
+     "key": "grid.saved",
+     "kind": "text",
+     "params": [],
+     "en": "Wall saved",
+     "de": "Wand gespeichert"
+    },
+    {
+     "key": "grid.alreadySaved",
+     "kind": "text",
+     "params": [],
+     "en": "Wall already saved",
+     "de": "Wand schon gespeichert"
+    },
+    {
+     "key": "grid.open",
+     "kind": "text",
+     "params": [],
+     "en": "Open wall",
+     "de": "Wand öffnen"
+    },
+    {
+     "key": "grid.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Open Ari from your grid to save this wall",
+     "de": "Öffne Ari aus deinem Grid, um diese Wand zu speichern"
+    },
+    {
+     "key": "grid.added",
+     "kind": "text",
+     "params": [],
+     "en": "New",
+     "de": "Neu"
+    },
+    {
+     "key": "grid.resized",
+     "kind": "text",
+     "params": [],
+     "en": "Resized",
+     "de": "Grösse"
+    },
+    {
+     "key": "grid.reconfigured",
+     "kind": "text",
+     "params": [],
+     "en": "Changed",
+     "de": "Geändert"
+    },
+    {
+     "key": "grid.removed",
+     "kind": "text",
+     "params": [],
+     "en": "Removed",
+     "de": "Entfernt"
+    },
+    {
+     "key": "grid.yourWidget",
+     "kind": "text",
+     "params": [],
+     "en": "Your widget",
+     "de": "Dein Widget"
+    },
+    {
+     "key": "modes.ask",
+     "kind": "text",
+     "params": [],
+     "en": "Ask",
+     "de": "Fragen"
+    },
+    {
+     "key": "modes.widgets",
+     "kind": "text",
+     "params": [],
+     "en": "Widgets",
+     "de": "Widgets"
+    },
+    {
+     "key": "modes.label",
+     "kind": "text",
+     "params": [],
+     "en": "Ari mode",
+     "de": "Ari Modus"
+    },
+    {
+     "key": "modes.loading",
+     "kind": "text",
+     "params": [],
+     "en": "Loading Ari…",
+     "de": "Ari wird geladen …"
+    },
+    {
+     "key": "modes.error",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t load Ari.",
+     "de": "Ari konnte nicht geladen werden."
+    },
+    {
+     "key": "modes.retry",
+     "kind": "text",
+     "params": [],
+     "en": "Try again",
+     "de": "Erneut versuchen"
+    },
+    {
+     "key": "library.title",
+     "kind": "text",
+     "params": [],
+     "en": "Your widgets",
+     "de": "Deine Widgets"
+    },
+    {
+     "key": "library.create",
+     "kind": "text",
+     "params": [],
+     "en": "New widget",
+     "de": "Neues Widget"
+    },
+    {
+     "key": "library.customize",
+     "kind": "text",
+     "params": [],
+     "en": "Customize",
+     "de": "Anpassen"
+    },
+    {
+     "key": "library.preview",
+     "kind": "text",
+     "params": [],
+     "en": "Preview",
+     "de": "Vorschau"
+    },
+    {
+     "key": "library.delete",
+     "kind": "text",
+     "params": [],
+     "en": "Delete widget",
+     "de": "Widget löschen"
+    },
+    {
+     "key": "library.deleteCustomization",
+     "kind": "text",
+     "params": [],
+     "en": "Delete customization",
+     "de": "Anpassung löschen"
+    },
+    {
+     "key": "library.deleteTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Delete this widget?",
+     "de": "Dieses Widget löschen?"
+    },
+    {
+     "key": "library.deleteHint",
+     "kind": "text",
+     "params": [],
+     "en": "It will be removed from your widgets and grid. This cannot be undone.",
+     "de": "Es wird aus deinen Widgets und deinem Grid entfernt. Dies kann nicht rückgängig gemacht werden."
+    },
+    {
+     "key": "library.deleteCustomizationHint",
+     "kind": "text",
+     "params": [],
+     "en": "Your edits will be deleted. The original widget stays on your grid.",
+     "de": "Deine Änderungen werden gelöscht. Das Original-Widget bleibt auf deinem Grid."
+    },
+    {
+     "key": "library.deleting",
+     "kind": "text",
+     "params": [],
+     "en": "Deleting…",
+     "de": "Wird gelöscht …"
+    },
+    {
+     "key": "library.deleteError",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t delete this widget. Try again.",
+     "de": "Dieses Widget konnte nicht gelöscht werden. Versuche es erneut."
+    },
+    {
+     "key": "library.cancel",
+     "kind": "text",
+     "params": [],
+     "en": "Cancel",
+     "de": "Abbrechen"
+    },
+    {
+     "key": "library.previewLoading",
+     "kind": "text",
+     "params": [],
+     "en": "Loading preview…",
+     "de": "Vorschau wird geladen …"
+    },
+    {
+     "key": "library.empty",
+     "kind": "text",
+     "params": [],
+     "en": "Your widgets will appear here.",
+     "de": "Hier erscheinen deine Widgets."
+    },
+    {
+     "key": "library.emptyHint",
+     "kind": "text",
+     "params": [],
+     "en": "Describe a widget to Ari to get started.",
+     "de": "Beschreibe Ari ein Widget, um loszulegen."
+    },
+    {
+     "key": "library.loading",
+     "kind": "text",
+     "params": [],
+     "en": "Loading your widgets…",
+     "de": "Deine Widgets werden geladen …"
+    },
+    {
+     "key": "library.error",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t load your widgets.",
+     "de": "Deine Widgets konnten nicht geladen werden."
+    },
+    {
+     "key": "library.draft",
+     "kind": "text",
+     "params": [],
+     "en": "Draft",
+     "de": "Entwurf"
+    },
+    {
+     "key": "library.saved",
+     "kind": "text",
+     "params": [],
+     "en": "On your grid",
+     "de": "Auf deinem Grid"
+    },
+    {
+     "key": "library.untitled",
+     "kind": "text",
+     "params": [],
+     "en": "Untitled widget",
+     "de": "Widget ohne Titel"
+    },
+    {
+     "key": "library.previewError",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t load this preview.",
+     "de": "Diese Vorschau konnte nicht geladen werden."
+    },
+    {
+     "key": "library.editError",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn’t open the editor.",
+     "de": "Der Editor konnte nicht geöffnet werden."
+    },
+    {
+     "key": "emptyWidgets",
+     "kind": "text",
+     "params": [],
+     "en": "No saved widgets yet.",
+     "de": "Noch keine gespeicherten Widgets."
+    },
+    {
+     "key": "previewHeading",
+     "kind": "text",
+     "params": [],
+     "en": "Ask |Ari|",
+     "de": "Frag |Ari|"
+    },
+    {
+     "key": "recentAnswers",
+     "kind": "text",
+     "params": [],
+     "en": "Recent answers",
+     "de": "Letzte Antworten"
+    },
+    {
+     "key": "placesCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "count",
+       "type": "number"
+      }
+     ],
+     "en": "{count} places",
+     "de": "{count} Orte"
+    },
+    {
+     "key": "revoked",
+     "kind": "text",
+     "params": [],
+     "en": "This widget is no longer available to you.",
+     "de": "Dieses Widget ist für dich nicht mehr verfügbar."
+    },
+    {
+     "key": "missingVersion",
+     "kind": "text",
+     "params": [],
+     "en": "This saved version is no longer available.",
+     "de": "Diese gespeicherte Version gibt es nicht mehr."
+    },
+    {
+     "key": "tombstoneHint",
+     "kind": "text",
+     "params": [],
+     "en": "Refresh to get a current answer.",
+     "de": "Aktualisiere, um eine aktuelle Antwort zu erhalten."
+    },
+    {
+     "key": "noLongerAvailable",
+     "kind": "text",
+     "params": [],
+     "en": "No longer available",
+     "de": "Nicht mehr verfügbar"
+    },
+    {
+     "key": "heading",
+     "kind": "text",
+     "params": [],
+     "en": "What would you like to |know|?",
+     "de": "Was möchtest du |wissen|?"
+    },
+    {
+     "key": "lede",
+     "kind": "text",
+     "params": [],
+     "en": "Ask about places, plans, or everyday life.",
+     "de": "Frag nach Orten, Plänen oder deinem Alltag."
+    },
+    {
+     "key": "editHeading",
+     "kind": "text",
+     "params": [],
+     "en": "What should |change|?",
+     "de": "Was soll |anders| sein?"
+    },
+    {
+     "key": "editLede",
+     "kind": "text",
+     "params": [],
+     "en": "Change its name, colour, or what it shows.",
+     "de": "Ändere den Namen, die Farbe oder was es zeigt."
+    },
+    {
+     "key": "recent",
+     "kind": "text",
+     "params": [],
+     "en": "Recent chats",
+     "de": "Letzte Chats"
+    },
+    {
+     "key": "allChats",
+     "kind": "text",
+     "params": [],
+     "en": "All chats",
+     "de": "Alle Chats"
+    },
+    {
+     "key": "suggestions",
+     "kind": "text",
+     "params": [],
+     "en": "Try asking",
+     "de": "Frag zum Beispiel"
+    },
+    {
+     "key": "close",
+     "kind": "text",
+     "params": [],
+     "en": "Close",
+     "de": "Schliessen"
+    },
+    {
+     "key": "closeHistory",
+     "kind": "text",
+     "params": [],
+     "en": "Close history",
+     "de": "Verlauf schliessen"
+    },
+    {
+     "key": "history",
+     "kind": "text",
+     "params": [],
+     "en": "History",
+     "de": "Verlauf"
+    },
+    {
+     "key": "emptyHistory",
+     "kind": "text",
+     "params": [],
+     "en": "No chats yet.",
+     "de": "Noch keine Chats."
+    },
+    {
+     "key": "deleteChat",
+     "kind": "text",
+     "params": [],
+     "en": "Delete chat",
+     "de": "Chat löschen"
+    },
+    {
+     "key": "deleteFailed",
+     "kind": "text",
+     "params": [],
+     "en": "Could not delete",
+     "de": "Löschen fehlgeschlagen"
+    },
+    {
+     "key": "retryDelete",
+     "kind": "text",
+     "params": [],
+     "en": "Try deleting again",
+     "de": "Löschen erneut versuchen"
+    },
+    {
+     "key": "yourWidgets",
+     "kind": "text",
+     "params": [],
+     "en": "Saved widgets",
+     "de": "Gespeicherte Widgets"
+    },
+    {
+     "key": "deleteWidget",
+     "kind": "text",
+     "params": [],
+     "en": "Delete widget",
+     "de": "Widget löschen"
+    },
+    {
+     "key": "now",
+     "kind": "text",
+     "params": [],
+     "en": "Now",
+     "de": "Jetzt"
+    },
+    {
+     "key": "errorTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Ari couldn’t load the answer",
+     "de": "Ari konnte die Antwort nicht laden"
+    },
+    {
+     "key": "errorEyebrow",
+     "kind": "text",
+     "params": [],
+     "en": "Not completed",
+     "de": "Nicht abgeschlossen"
+    },
+    {
+     "key": "tryAgain",
+     "kind": "text",
+     "params": [],
+     "en": "Please try again.",
+     "de": "Versuch es bitte noch einmal."
+    },
+    {
+     "key": "retry",
+     "kind": "text",
+     "params": [],
+     "en": "Try again",
+     "de": "Erneut versuchen"
+    },
+    {
+     "key": "newQuestion",
+     "kind": "text",
+     "params": [],
+     "en": "New question",
+     "de": "Neue Anfrage"
+    },
+    {
+     "key": "historyError",
+     "kind": "text",
+     "params": [],
+     "en": "Could not load history. Try again.",
+     "de": "Verlauf konnte nicht geladen werden. Erneut versuchen."
+    },
+    {
+     "key": "openWidget",
+     "kind": "text",
+     "params": [],
+     "en": "Open widget",
+     "de": "Widget öffnen"
+    },
+    {
+     "key": "address",
+     "kind": "text",
+     "params": [],
+     "en": "Address",
+     "de": "Adresse"
+    },
+    {
+     "key": "price",
+     "kind": "text",
+     "params": [],
+     "en": "Listed price",
+     "de": "Erfasster Preis"
+    },
+    {
+     "key": "openingHours",
+     "kind": "text",
+     "params": [],
+     "en": "Opening hours",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "key": "availability",
+     "kind": "text",
+     "params": [],
+     "en": "Availability",
+     "de": "Verfügbarkeit"
+    },
+    {
+     "key": "directions",
+     "kind": "text",
+     "params": [],
+     "en": "Directions",
+     "de": "Route anzeigen"
+    },
+    {
+     "key": "exampleOne",
+     "kind": "text",
+     "params": [],
+     "en": "Where can I go for a swim?",
+     "de": "Wo kann ich baden gehen?"
+    },
+    {
+     "key": "exampleTwo",
+     "kind": "text",
+     "params": [],
+     "en": "What’s on this weekend?",
+     "de": "Was läuft am Wochenende?"
+    },
+    {
+     "key": "exampleThree",
+     "kind": "text",
+     "params": [],
+     "en": "Where can I get lunch nearby?",
+     "de": "Wo kann ich in der Nähe zu Mittag essen?"
+    }
+   ]
+  },
+  {
+   "id": "widgets/directions/strings",
+   "file": "packages/widget-runtime/src/widgets/directions/strings.ts",
+   "context": "The Directions tile's copy. The sheet is the shared planner and carries the\nplanner's own strings; this is only what the launcher says.",
+   "keys": [
+    {
+     "key": "label",
+     "kind": "text",
+     "params": [],
+     "en": "Directions",
+     "de": "Route"
+    },
+    {
+     "key": "prompt",
+     "kind": "text",
+     "params": [],
+     "en": "Where |to?|",
+     "de": "Wo|hin?|"
+    },
+    {
+     "key": "hint",
+     "kind": "text",
+     "params": [],
+     "en": "Tap to plan a route",
+     "de": "Tippe, um eine Route zu planen"
+    },
+    {
+     "key": "savedPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "Saved places",
+     "de": "Gespeicherte Orte"
+    },
+    {
+     "key": "modes",
+     "kind": "text",
+     "params": [],
+     "en": "Travel mode",
+     "de": "Fortbewegungsart"
+    },
+    {
+     "key": "foot",
+     "kind": "text",
+     "params": [],
+     "en": "On foot",
+     "de": "Zu Fuss"
+    },
+    {
+     "key": "bicycle",
+     "kind": "text",
+     "params": [],
+     "en": "By bike",
+     "de": "Mit dem Velo"
+    },
+    {
+     "key": "transit",
+     "kind": "text",
+     "params": [],
+     "en": "By public transport",
+     "de": "Mit dem ÖV"
+    },
+    {
+     "key": "planWith",
+     "kind": "template",
+     "params": [
+      {
+       "name": "mode",
+       "type": "string"
+      }
+     ],
+     "en": "Plan a route: {mode}",
+     "de": "Route planen: {mode}"
+    },
+    {
+     "key": "routeTo",
+     "kind": "template",
+     "params": [
+      {
+       "name": "place",
+       "type": "string"
+      }
+     ],
+     "en": "Route to {place}",
+     "de": "Route nach {place}"
+    }
+   ]
+  },
+  {
+   "id": "widgets/feedback-user-research/strings",
+   "file": "packages/widget-runtime/src/widgets/feedback-user-research/strings.ts",
+   "context": "",
+   "keys": [
+    {
+     "key": "common.feedback",
+     "kind": "text",
+     "params": [],
+     "en": "Feedback",
+     "de": "Feedback"
+    },
+    {
+     "key": "common.message",
+     "kind": "text",
+     "params": [],
+     "en": "Message",
+     "de": "Nachricht"
+    },
+    {
+     "key": "common.send",
+     "kind": "text",
+     "params": [],
+     "en": "Send",
+     "de": "Senden"
+    },
+    {
+     "key": "common.sending",
+     "kind": "text",
+     "params": [],
+     "en": "Sending…",
+     "de": "Wird gesendet…"
+    },
+    {
+     "key": "common.add",
+     "kind": "text",
+     "params": [],
+     "en": "Add",
+     "de": "Hinzufügen"
+    },
+    {
+     "key": "common.close",
+     "kind": "text",
+     "params": [],
+     "en": "Close",
+     "de": "Schliessen"
+    },
+    {
+     "key": "preview.headline",
+     "kind": "text",
+     "params": [],
+     "en": "Tell us what you |noticed.|",
+     "de": "Sag uns, was dir |aufgefallen ist.|"
+    },
+    {
+     "key": "preview.openForm",
+     "kind": "text",
+     "params": [],
+     "en": "Open the form",
+     "de": "Formular öffnen"
+    },
+    {
+     "key": "intentLabels.somethingBroke",
+     "kind": "text",
+     "params": [],
+     "en": "Something broke",
+     "de": "Etwas ist kaputt"
+    },
+    {
+     "key": "intentLabels.missingInfo",
+     "kind": "text",
+     "params": [],
+     "en": "Missing info",
+     "de": "Info fehlt"
+    },
+    {
+     "key": "intentLabels.somethingConfusing",
+     "kind": "text",
+     "params": [],
+     "en": "Something is confusing",
+     "de": "Etwas ist verwirrend"
+    },
+    {
+     "key": "intentLabels.idea",
+     "kind": "text",
+     "params": [],
+     "en": "Idea",
+     "de": "Idee"
+    },
+    {
+     "key": "intentLabels.wrongInfo",
+     "kind": "text",
+     "params": [],
+     "en": "Wrong info",
+     "de": "Falsche Info"
+    },
+    {
+     "key": "intentLabels.locationIssue",
+     "kind": "text",
+     "params": [],
+     "en": "Location issue",
+     "de": "Standort-Problem"
+    },
+    {
+     "key": "intentLabels.praise",
+     "kind": "text",
+     "params": [],
+     "en": "Praise",
+     "de": "Lob"
+    },
+    {
+     "key": "intentLabels.somethingElse",
+     "kind": "text",
+     "params": [],
+     "en": "Something else",
+     "de": "Etwas anderes"
+    },
+    {
+     "key": "placeholders.tramOutlook",
+     "kind": "text",
+     "params": [],
+     "en": "the tram outlook went blank around 18:00",
+     "de": "die Tram-Übersicht war gegen 18:00 leer"
+    },
+    {
+     "key": "placeholders.settingsAccess",
+     "kind": "text",
+     "params": [],
+     "en": "I could not figure out how to access the settings",
+     "de": "ich habe nicht herausgefunden, wie ich zu den Einstellungen komme"
+    },
+    {
+     "key": "placeholders.badiHours",
+     "kind": "text",
+     "params": [],
+     "en": "the badi page does not show closing hours",
+     "de": "die Badi-Seite zeigt keine Öffnungszeiten"
+    },
+    {
+     "key": "placeholders.utoquaiTemperature",
+     "kind": "text",
+     "params": [],
+     "en": "the temperature on Utoquai showed yesterday's value",
+     "de": "die Temperatur am Utoquai zeigte den Wert von gestern"
+    },
+    {
+     "key": "placeholders.driftingLocation",
+     "kind": "text",
+     "params": [],
+     "en": "my position keeps drifting off the map",
+     "de": "meine Position driftet ständig von der Karte weg"
+    },
+    {
+     "key": "placeholders.quietCafe",
+     "kind": "text",
+     "params": [],
+     "en": "a quiet-café finder for late afternoons",
+     "de": "ein Finder für ruhige Cafés am späten Nachmittag"
+    },
+    {
+     "key": "placeholders.morningWeather",
+     "kind": "text",
+     "params": [],
+     "en": "the morning weather card always nails it, thanks",
+     "de": "die Wetterkarte am Morgen stimmt immer, danke"
+    },
+    {
+     "key": "placeholders.anything",
+     "kind": "text",
+     "params": [],
+     "en": "anything you want us to know…",
+     "de": "alles, was du uns mitteilen möchtest…"
+    },
+    {
+     "key": "form.heroHeadline",
+     "kind": "text",
+     "params": [],
+     "en": "Listening.",
+     "de": "Wir hören zu."
+    },
+    {
+     "key": "form.heroLede",
+     "kind": "text",
+     "params": [],
+     "en": "What would you like to share?",
+     "de": "Was möchtest du mit uns teilen?"
+    },
+    {
+     "key": "form.intentLegend",
+     "kind": "text",
+     "params": [],
+     "en": "Feedback intent",
+     "de": "Worum geht es?"
+    },
+    {
+     "key": "form.messageAriaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Your message",
+     "de": "Deine Nachricht"
+    },
+    {
+     "key": "form.pickTopic",
+     "kind": "text",
+     "params": [],
+     "en": "Pick a topic to send.",
+     "de": "Wähle zuerst ein Thema."
+    },
+    {
+     "key": "form.addWords",
+     "kind": "text",
+     "params": [],
+     "en": "Add a few words before sending.",
+     "de": "Schreib noch ein paar Worte, bevor du sendest."
+    },
+    {
+     "key": "form.submitError",
+     "kind": "text",
+     "params": [],
+     "en": "Couldn't send. Try again in a moment.",
+     "de": "Senden fehlgeschlagen. Bitte versuche es erneut."
+    },
+    {
+     "key": "form.readEverything",
+     "kind": "text",
+     "params": [],
+     "en": "We read everything.",
+     "de": "Wir lesen alles selbst."
+    },
+    {
+     "key": "form.noNewsletter",
+     "kind": "text",
+     "params": [],
+     "en": "No newsletter signup, ever.",
+     "de": "Nie eine Newsletter-Anmeldung."
+    },
+    {
+     "key": "form.howFeedbackWorks",
+     "kind": "text",
+     "params": [],
+     "en": "How feedback works",
+     "de": "So funktioniert Feedback"
+    },
+    {
+     "key": "form.ratingPrompt",
+     "kind": "text",
+     "params": [],
+     "en": "Do you like this feedback form?",
+     "de": "Gefällt dir dieses Feedback-Formular?"
+    },
+    {
+     "key": "form.submittedKicker",
+     "kind": "text",
+     "params": [],
+     "en": "in the room",
+     "de": "im Raum"
+    },
+    {
+     "key": "form.submittedHeadline",
+     "kind": "text",
+     "params": [],
+     "en": "Heard.",
+     "de": "Gehört."
+    },
+    {
+     "key": "form.submittedBodyLead",
+     "kind": "text",
+     "params": [],
+     "en": "Thanks for sharing this with us.",
+     "de": "Danke, dass du das mit uns teilst."
+    },
+    {
+     "key": "form.submittedBodyFollow",
+     "kind": "text",
+     "params": [],
+     "en": "We will review it carefully.",
+     "de": "Wir schauen es uns sorgfältig an."
+    },
+    {
+     "key": "form.sendAnother",
+     "kind": "text",
+     "params": [],
+     "en": "Send another",
+     "de": "Noch eine senden"
+    },
+    {
+     "key": "nextRows.review.lead",
+     "kind": "text",
+     "params": [],
+     "en": "We review feedback",
+     "de": "Wir prüfen Feedback"
+    },
+    {
+     "key": "nextRows.review.follow",
+     "kind": "text",
+     "params": [],
+     "en": "regularly",
+     "de": "regelmässig"
+    },
+    {
+     "key": "nextRows.review.body",
+     "kind": "text",
+     "params": [],
+     "en": "Similar reports are grouped together and spam is filtered out.",
+     "de": "Ähnliche Meldungen werden zusammengefasst und Spam wird herausgefiltert."
+    },
+    {
+     "key": "nextRows.bugs.lead",
+     "kind": "text",
+     "params": [],
+     "en": "Bugs are routed",
+     "de": "Fehlermeldungen gelangen"
+    },
+    {
+     "key": "nextRows.bugs.follow",
+     "kind": "text",
+     "params": [],
+     "en": "directly to the queue",
+     "de": "direkt in die Warteschlange"
+    },
+    {
+     "key": "nextRows.bugs.body",
+     "kind": "text",
+     "params": [],
+     "en": "Issues affecting the experience are prioritized for fixes.",
+     "de": "Probleme, die das Erlebnis beeinträchtigen, werden bei der Behebung priorisiert."
+    },
+    {
+     "key": "nextRows.lab.lead",
+     "kind": "text",
+     "params": [],
+     "en": "Ideas may appear",
+     "de": "Ideen erscheinen vielleicht"
+    },
+    {
+     "key": "nextRows.lab.follow",
+     "kind": "text",
+     "params": [],
+     "en": "in Ari Lab",
+     "de": "im Ari Lab"
+    },
+    {
+     "key": "nextRows.lab.body",
+     "kind": "text",
+     "params": [],
+     "en": "The community can explore, discuss, and support future directions together.",
+     "de": "Die Community kann künftige Entwicklungen gemeinsam erkunden, diskutieren und unterstützen."
+    },
+    {
+     "key": "nextRows.product.lead",
+     "kind": "text",
+     "params": [],
+     "en": "The strongest ideas",
+     "de": "Die stärksten Ideen"
+    },
+    {
+     "key": "nextRows.product.follow",
+     "kind": "text",
+     "params": [],
+     "en": "move into the product",
+     "de": "kommen ins Produkt"
+    },
+    {
+     "key": "nextRows.product.body",
+     "kind": "text",
+     "params": [],
+     "en": "Some experiments stay in the Lab. Others become part of Ari.",
+     "de": "Manche Experimente bleiben im Lab. Andere werden Teil von Ari."
+    }
+   ]
+  },
+  {
+   "id": "widgets/made-in-zurich/strings",
+   "file": "packages/widget-runtime/src/widgets/made-in-zurich/strings.ts",
+   "context": "Made in Zürich, everything the widget prints around the seed data, in the\nreader's language. Business names, addresses, and the seed's own bilingual\nfields (branch labels, spotlight notes, the event, TUP descriptions) live\nin ./seed and ./tup-seed instead — this file holds only the widget's own\nchrome: tile copy, section labels, filters, buttons and aria-labels.",
+   "keys": [
+    {
+     "key": "eyebrow",
+     "kind": "text",
+     "params": [],
+     "en": "Urban Production",
+     "de": "Urbane Produktion"
+    },
+    {
+     "key": "lead",
+     "kind": "template",
+     "params": [
+      {
+       "name": "producers",
+       "type": "number"
+      }
+     ],
+     "en": "{producers} workshops, roasteries and ateliers produce inside the city limits.",
+     "de": "{producers} Werkstätten, Rösterinnen und Ateliers produzieren innerhalb der Stadtgrenzen."
+    },
+    {
+     "key": "headline",
+     "kind": "text",
+     "params": [],
+     "en": "The city's |mark of origin.|",
+     "de": "Das Herkunftszeichen |der Stadt.|"
+    },
+    {
+     "key": "lede",
+     "kind": "text",
+     "params": [],
+     "en": "The Made in Zürich Initiative gives producers of every size a platform and an official designation of origin, for things actually made inside the city limits.",
+     "de": "Die Made-in-Zürich-Initiative bietet Produzent:innen jeder Grösse eine Plattform und eine offizielle Herkunftsbezeichnung, für alles, was tatsächlich innerhalb der Stadtgrenzen hergestellt wird."
+    },
+    {
+     "key": "producers",
+     "kind": "text",
+     "params": [],
+     "en": "producers",
+     "de": "Produzent:innen"
+    },
+    {
+     "key": "branches",
+     "kind": "text",
+     "params": [],
+     "en": "branches",
+     "de": "Branchen"
+    },
+    {
+     "key": "tupSectionLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Urban Production Day",
+     "de": "Tag der urbanen Produktion"
+    },
+    {
+     "key": "tupIntro",
+     "kind": "text",
+     "params": [],
+     "en": "one day of open workshops.",
+     "de": "ein Tag offener Werkstätten."
+    },
+    {
+     "key": "tupTabsAriaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Urban Production Day view",
+     "de": "Ansicht: Tag der urbanen Produktion"
+    },
+    {
+     "key": "tabBusinesses",
+     "kind": "text",
+     "params": [],
+     "en": "Businesses",
+     "de": "Betriebe"
+    },
+    {
+     "key": "tabProgramme",
+     "kind": "text",
+     "params": [],
+     "en": "Programme",
+     "de": "Programm"
+    },
+    {
+     "key": "searchPlaceholder",
+     "kind": "text",
+     "params": [],
+     "en": "Search businesses…",
+     "de": "Betriebe suchen…"
+    },
+    {
+     "key": "searchAriaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Search businesses",
+     "de": "Betriebe suchen"
+    },
+    {
+     "key": "clearSearchAriaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Clear search",
+     "de": "Suche löschen"
+    },
+    {
+     "key": "reset",
+     "kind": "text",
+     "params": [],
+     "en": "× Reset",
+     "de": "× Zurücksetzen"
+    },
+    {
+     "key": "filterIndustry",
+     "kind": "text",
+     "params": [],
+     "en": "What's produced?",
+     "de": "Was wird produziert?"
+    },
+    {
+     "key": "filterIndustryAll",
+     "kind": "text",
+     "params": [],
+     "en": "All industries",
+     "de": "Alle Branchen"
+    },
+    {
+     "key": "filterFormat",
+     "kind": "text",
+     "params": [],
+     "en": "What's on offer?",
+     "de": "Was gibt es zu erleben?"
+    },
+    {
+     "key": "filterFormatAll",
+     "kind": "text",
+     "params": [],
+     "en": "All formats",
+     "de": "Alle Formate"
+    },
+    {
+     "key": "filterDistrict",
+     "kind": "text",
+     "params": [],
+     "en": "District",
+     "de": "Stadtkreis"
+    },
+    {
+     "key": "filterDistrictAll",
+     "kind": "text",
+     "params": [],
+     "en": "All districts",
+     "de": "Alle Kreise"
+    },
+    {
+     "key": "filterSignup",
+     "kind": "text",
+     "params": [],
+     "en": "Sign-up",
+     "de": "Teilnahme"
+    },
+    {
+     "key": "filterSignupAll",
+     "kind": "text",
+     "params": [],
+     "en": "All",
+     "de": "Alle"
+    },
+    {
+     "key": "nBusinesses",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {business} other {businesses}}",
+     "de": "{n} {n, plural, one {Betrieb} other {Betriebe}}"
+    },
+    {
+     "key": "savedCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Saved · {n}",
+     "de": "Gespeichert · {n}"
+    },
+    {
+     "key": "filtersLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Filters",
+     "de": "Filter"
+    },
+    {
+     "key": "filtersCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Filters · {n}",
+     "de": "Filter · {n}"
+    },
+    {
+     "key": "noBusinesses",
+     "kind": "text",
+     "params": [],
+     "en": "No businesses match these filters.",
+     "de": "Keine Betriebe entsprechen diesen Filtern."
+    },
+    {
+     "key": "showMoreBusinesses",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Show {n} more",
+     "de": "{n} weitere anzeigen"
+    },
+    {
+     "key": "removeFromSaved",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Remove {name} from saved",
+     "de": "{name} aus Gespeichert entfernen"
+    },
+    {
+     "key": "saveSpot",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Save {name}",
+     "de": "{name} speichern"
+    },
+    {
+     "key": "timeOfDayAriaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Time of day",
+     "de": "Tageszeit"
+    },
+    {
+     "key": "narrowedByFilters",
+     "kind": "template",
+     "params": [
+      {
+       "name": "shown",
+       "type": "number"
+      },
+      {
+       "name": "total",
+       "type": "number"
+      }
+     ],
+     "en": "Narrowed by your filters ({shown} of {total})",
+     "de": "Eingeschränkt durch deine Filter ({shown} von {total})"
+    },
+    {
+     "key": "noScheduled",
+     "kind": "code",
+     "params": [
+      {
+       "name": "slotLabel",
+       "type": "string"
+      },
+      {
+       "name": "isAll",
+       "type": "boolean"
+      }
+     ]
+    },
+    {
+     "key": "dropInAnytime",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Drop in anytime · {n}",
+     "de": "Jederzeit vorbeischauen · {n}"
+    },
+    {
+     "key": "routeMySaved",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Route my saved locations · {n}",
+     "de": "Route aus Gespeicherten · {n}"
+    },
+    {
+     "key": "surpriseMe",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise me",
+     "de": "Überrasch mich"
+    },
+    {
+     "key": "routeHint",
+     "kind": "text",
+     "params": [],
+     "en": "Save at least two businesses (the bookmark on any card) to route your own picks.",
+     "de": "Speichere mindestens zwei Betriebe (über das Lesezeichen auf einer Karte), um deine eigene Route zu planen."
+    },
+    {
+     "key": "yourSavedTour",
+     "kind": "text",
+     "params": [],
+     "en": "Your saved tour",
+     "de": "Deine gespeicherte Tour"
+    },
+    {
+     "key": "surpriseTour",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise tour",
+     "de": "Überraschungstour"
+    },
+    {
+     "key": "nStops",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {stop} other {stops}}",
+     "de": "{n} {n, plural, one {Stopp} other {Stopps}}"
+    },
+    {
+     "key": "fromCityCentre",
+     "kind": "text",
+     "params": [],
+     "en": " · from the city centre",
+     "de": " · ab Stadtzentrum"
+    },
+    {
+     "key": "routeStart",
+     "kind": "text",
+     "params": [],
+     "en": "start",
+     "de": "Start"
+    },
+    {
+     "key": "routingPending",
+     "kind": "text",
+     "params": [],
+     "en": "routing…",
+     "de": "wird berechnet…"
+    },
+    {
+     "key": "shuffleAgain",
+     "kind": "text",
+     "params": [],
+     "en": "Shuffle again",
+     "de": "Neu mischen"
+    },
+    {
+     "key": "clearRoute",
+     "kind": "text",
+     "params": [],
+     "en": "× Clear route",
+     "de": "× Route löschen"
+    },
+    {
+     "key": "removeFromRoute",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Remove {name} from the route",
+     "de": "{name} aus der Route entfernen"
+    },
+    {
+     "key": "factAddress",
+     "kind": "text",
+     "params": [],
+     "en": "Address",
+     "de": "Adresse"
+    },
+    {
+     "key": "factTours",
+     "kind": "text",
+     "params": [],
+     "en": "Tours",
+     "de": "Führungen"
+    },
+    {
+     "key": "factOpen",
+     "kind": "text",
+     "params": [],
+     "en": "Open",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "key": "factWebsite",
+     "kind": "text",
+     "params": [],
+     "en": "Website",
+     "de": "Website"
+    },
+    {
+     "key": "signUp",
+     "kind": "text",
+     "params": [],
+     "en": "Sign up",
+     "de": "Anmelden"
+    },
+    {
+     "key": "route",
+     "kind": "text",
+     "params": [],
+     "en": "Route",
+     "de": "Route"
+    },
+    {
+     "key": "signupRequired",
+     "kind": "text",
+     "params": [],
+     "en": "Sign-up required",
+     "de": "Anmeldung erforderlich"
+    },
+    {
+     "key": "signupRecommended",
+     "kind": "text",
+     "params": [],
+     "en": "Sign-up recommended",
+     "de": "Anmeldung empfohlen"
+    },
+    {
+     "key": "directorySectionLabel",
+     "kind": "text",
+     "params": [],
+     "en": "The directory",
+     "de": "Das Verzeichnis"
+    },
+    {
+     "key": "spotlightsSectionLabel",
+     "kind": "text",
+     "params": [],
+     "en": "In the workshops",
+     "de": "In den Werkstätten"
+    },
+    {
+     "key": "saveTheDateSectionLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Save the date",
+     "de": "Termin vormerken"
+    },
+    {
+     "key": "eventSub",
+     "kind": "text",
+     "params": [],
+     "en": "Saturday · workshops open across the city",
+     "de": "Samstag · Werkstätten offen in der ganzen Stadt"
+    },
+    {
+     "key": "addToCalendar",
+     "kind": "text",
+     "params": [],
+     "en": "Add to calendar",
+     "de": "Zum Kalender hinzufügen"
+    },
+    {
+     "key": "supportersSectionLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Supporters",
+     "de": "Supporter"
+    },
+    {
+     "key": "colophonLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Verein Made in Zürich Initiative",
+     "de": "Verein Made in Zürich Initiative"
+    }
+   ]
+  },
+  {
+   "id": "widgets/new-places-to-eat-and-drink/strings",
+   "file": "packages/widget-runtime/src/widgets/new-places-to-eat-and-drink/strings.ts",
+   "context": "",
+   "keys": [
+    {
+     "key": "knowPlace",
+     "kind": "text",
+     "params": [],
+     "en": "Know a new place?",
+     "de": "Kennst du einen neuen Ort?"
+    },
+    {
+     "key": "suggestCopy",
+     "kind": "text",
+     "params": [],
+     "en": "Has somewhere new opened in Zürich that belongs on this list?",
+     "de": "Hat in Zürich ein neuer Ort eröffnet, der auf diese Liste gehört?"
+    },
+    {
+     "key": "suggestPlace",
+     "kind": "text",
+     "params": [],
+     "en": "Suggest a place",
+     "de": "Ort vorschlagen"
+    },
+    {
+     "key": "savedOnly",
+     "kind": "text",
+     "params": [],
+     "en": "Saved places only",
+     "de": "Nur gespeicherte Orte"
+    },
+    {
+     "key": "brandNewOnly",
+     "kind": "text",
+     "params": [],
+     "en": "Brand new only",
+     "de": "Nur ganz neue"
+    },
+    {
+     "key": "sortBy",
+     "kind": "text",
+     "params": [],
+     "en": "Sort by",
+     "de": "Sortieren nach"
+    },
+    {
+     "key": "clearFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Clear",
+     "de": "Leeren"
+    },
+    {
+     "key": "applyFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Apply",
+     "de": "Anwenden"
+    },
+    {
+     "key": "placeName",
+     "kind": "text",
+     "params": [],
+     "en": "Place name",
+     "de": "Name des Orts"
+    },
+    {
+     "key": "optionalWebsite",
+     "kind": "text",
+     "params": [],
+     "en": "Website (optional)",
+     "de": "Website (optional)"
+    },
+    {
+     "key": "optionalNotes",
+     "kind": "text",
+     "params": [],
+     "en": "What should we know? (optional)",
+     "de": "Was sollten wir wissen? (optional)"
+    },
+    {
+     "key": "optionalEmail",
+     "kind": "text",
+     "params": [],
+     "en": "Your email (optional)",
+     "de": "Deine E-Mail (optional)"
+    },
+    {
+     "key": "suggestionThanks",
+     "kind": "text",
+     "params": [],
+     "en": "Thanks! Your suggestion has been sent to the Ari team.",
+     "de": "Danke! Dein Vorschlag wurde ans Ari-Team gesendet."
+    },
+    {
+     "key": "suggestionError",
+     "kind": "text",
+     "params": [],
+     "en": "Could not send your suggestion. Please try again.",
+     "de": "Dein Vorschlag konnte nicht gesendet werden. Bitte versuche es erneut."
+    },
+    {
+     "key": "sendingSuggestion",
+     "kind": "text",
+     "params": [],
+     "en": "Sending…",
+     "de": "Wird gesendet…"
+    },
+    {
+     "key": "sendSuggestion",
+     "kind": "text",
+     "params": [],
+     "en": "Send suggestion",
+     "de": "Vorschlag senden"
+    },
+    {
+     "key": "title",
+     "kind": "text",
+     "params": [],
+     "en": "New Places to Eat & Drink",
+     "de": "Neue Orte zum Essen & Trinken"
+    },
+    {
+     "key": "new",
+     "kind": "text",
+     "params": [],
+     "en": "New",
+     "de": "Neu"
+    },
+    {
+     "key": "stampTop",
+     "kind": "text",
+     "params": [],
+     "en": "Brand",
+     "de": "Ganz"
+    },
+    {
+     "key": "stampBottom",
+     "kind": "text",
+     "params": [],
+     "en": "new",
+     "de": "neu"
+    },
+    {
+     "key": "brandNew",
+     "kind": "text",
+     "params": [],
+     "en": "Brand new",
+     "de": "Ganz neu"
+    },
+    {
+     "key": "emptyOpenings",
+     "kind": "text",
+     "params": [],
+     "en": "New openings are on their way",
+     "de": "Neue Orte eröffnen bald"
+    },
+    {
+     "key": "places",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {place} other {places}}",
+     "de": "{n} {n, plural, one {Ort} other {Orte}}"
+    },
+    {
+     "key": "comingSoonCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} coming soon",
+     "de": "{n} bald neu"
+    },
+    {
+     "key": "brandNewCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} brand new",
+     "de": "{n} ganz neu"
+    },
+    {
+     "key": "openedIn",
+     "kind": "template",
+     "params": [
+      {
+       "name": "year",
+       "type": "number"
+      }
+     ],
+     "en": "Opened in {year}",
+     "de": "Eröffnet {year}"
+    },
+    {
+     "key": "allPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "All places",
+     "de": "Alle Orte"
+    },
+    {
+     "key": "backTo",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Back to {name}",
+     "de": "Zurück zu {name}"
+    },
+    {
+     "key": "menuFor",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Menu for {name}",
+     "de": "Speisekarte von {name}"
+    },
+    {
+     "key": "close",
+     "kind": "text",
+     "params": [],
+     "en": "Close",
+     "de": "Schliessen"
+    },
+    {
+     "key": "filterPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "Filter places",
+     "de": "Orte filtern"
+    },
+    {
+     "key": "filters.all",
+     "kind": "text",
+     "params": [],
+     "en": "All",
+     "de": "Alle"
+    },
+    {
+     "key": "filters.cafe",
+     "kind": "text",
+     "params": [],
+     "en": "Cafés",
+     "de": "Cafés"
+    },
+    {
+     "key": "filters.restaurant",
+     "kind": "text",
+     "params": [],
+     "en": "Restaurants",
+     "de": "Restaurants"
+    },
+    {
+     "key": "filters.bar",
+     "kind": "text",
+     "params": [],
+     "en": "Bars",
+     "de": "Bars"
+    },
+    {
+     "key": "filters.more",
+     "kind": "text",
+     "params": [],
+     "en": "Sweet & pop-up",
+     "de": "Süsses & Pop-up"
+    },
+    {
+     "key": "savedCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Saved · {n}",
+     "de": "Gespeichert · {n}"
+    },
+    {
+     "key": "savedPlaces",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Saved places, {n}",
+     "de": "Gespeicherte Orte, {n}"
+    },
+    {
+     "key": "nearest",
+     "kind": "text",
+     "params": [],
+     "en": "Nearest",
+     "de": "In der Nähe"
+    },
+    {
+     "key": "noSaved",
+     "kind": "text",
+     "params": [],
+     "en": "No saved places here",
+     "de": "Keine gespeicherten Orte hier"
+    },
+    {
+     "key": "noSavedCopy",
+     "kind": "text",
+     "params": [],
+     "en": "Tap Save on a place to keep it in this list.",
+     "de": "Tippe bei einem Ort auf Speichern, um ihn in dieser Liste zu behalten."
+    },
+    {
+     "key": "noResults",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing new here yet",
+     "de": "Hier gibt es noch nichts Neues"
+    },
+    {
+     "key": "openNowFilter",
+     "kind": "text",
+     "params": [],
+     "en": "Open now",
+     "de": "Jetzt offen"
+    },
+    {
+     "key": "filterPrice",
+     "kind": "text",
+     "params": [],
+     "en": "Filter by price",
+     "de": "Nach Preis filtern"
+    },
+    {
+     "key": "anyPrice",
+     "kind": "text",
+     "params": [],
+     "en": "Any price",
+     "de": "Alle Preise"
+    },
+    {
+     "key": "noPriceResults",
+     "kind": "text",
+     "params": [],
+     "en": "No places match these filters",
+     "de": "Keine Orte passen zu diesen Filtern"
+    },
+    {
+     "key": "noPriceResultsCopy",
+     "kind": "text",
+     "params": [],
+     "en": "Choose Any price to see places across all price ranges.",
+     "de": "Wähle Alle Preise, um Orte in allen Preisklassen zu sehen."
+    },
+    {
+     "key": "noOpenPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "No places open now",
+     "de": "Jetzt sind keine Orte offen"
+    },
+    {
+     "key": "noOpenPlacesCopy",
+     "kind": "text",
+     "params": [],
+     "en": "Turn off Open now to see all matching places.",
+     "de": "Schalte Jetzt offen aus, um alle passenden Orte zu sehen."
+    },
+    {
+     "key": "openedOn",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "Opened {date}",
+     "de": "Eröffnet am {date}"
+    },
+    {
+     "key": "openedInMonth",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "Opened in {date}",
+     "de": "Eröffnet im {date}"
+    },
+    {
+     "key": "newest",
+     "kind": "text",
+     "params": [],
+     "en": "Newest",
+     "de": "Am neuesten"
+    },
+    {
+     "key": "saved",
+     "kind": "text",
+     "params": [],
+     "en": "Saved",
+     "de": "Gespeichert"
+    },
+    {
+     "key": "openingSoon",
+     "kind": "text",
+     "params": [],
+     "en": "Opening soon",
+     "de": "Eröffnet bald"
+    },
+    {
+     "key": "reminderOn",
+     "kind": "text",
+     "params": [],
+     "en": "Reminder on",
+     "de": "Erinnerung aktiv"
+    },
+    {
+     "key": "remindMe",
+     "kind": "text",
+     "params": [],
+     "en": "Remind me",
+     "de": "Erinnere mich"
+    },
+    {
+     "key": "removeReminder",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Reminder set for {name}. Tap to remove",
+     "de": "Erinnerung für {name} aktiv. Tippen zum Entfernen"
+    },
+    {
+     "key": "setReminder",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Remind me when {name} opens",
+     "de": "Erinnere mich, wenn {name} eröffnet"
+    },
+    {
+     "key": "fineprint",
+     "kind": "text",
+     "params": [],
+     "en": "Picked by the Ari team. A place is brand new for its first three months and stays on this list until the end of the year.",
+     "de": "Ausgewählt vom Ari-Team. Ein Ort ist in den ersten drei Monaten ganz neu und bleibt bis Ende Jahr auf dieser Liste."
+    },
+    {
+     "key": "photoComing",
+     "kind": "text",
+     "params": [],
+     "en": "Photo coming",
+     "de": "Foto folgt"
+    },
+    {
+     "key": "photos",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Photos of {name}",
+     "de": "Fotos von {name}"
+    },
+    {
+     "key": "video",
+     "kind": "text",
+     "params": [],
+     "en": "Video",
+     "de": "Video"
+    },
+    {
+     "key": "playVideo",
+     "kind": "template",
+     "params": [
+      {
+       "name": "description",
+       "type": "string"
+      }
+     ],
+     "en": "Play video: {description}",
+     "de": "Video abspielen: {description}"
+    },
+    {
+     "key": "closeGallery",
+     "kind": "text",
+     "params": [],
+     "en": "Close photos",
+     "de": "Fotos schliessen"
+    },
+    {
+     "key": "inside",
+     "kind": "text",
+     "params": [],
+     "en": "Inside",
+     "de": "Innen"
+    },
+    {
+     "key": "signature",
+     "kind": "text",
+     "params": [],
+     "en": "Signature",
+     "de": "Spezialität"
+    },
+    {
+     "key": "sharePlace",
+     "kind": "text",
+     "params": [],
+     "en": "Share place",
+     "de": "Ort teilen"
+    },
+    {
+     "key": "linkCopied",
+     "kind": "text",
+     "params": [],
+     "en": "Link copied",
+     "de": "Link kopiert"
+    },
+    {
+     "key": "couldNotShare",
+     "kind": "text",
+     "params": [],
+     "en": "Could not share. Please try again.",
+     "de": "Teilen nicht möglich. Versuch es erneut."
+    },
+    {
+     "key": "directions",
+     "kind": "text",
+     "params": [],
+     "en": "Directions",
+     "de": "Route"
+    },
+    {
+     "key": "call",
+     "kind": "text",
+     "params": [],
+     "en": "Call",
+     "de": "Anrufen"
+    },
+    {
+     "key": "menu",
+     "kind": "text",
+     "params": [],
+     "en": "Menu",
+     "de": "Speisekarte"
+    },
+    {
+     "key": "placeActions",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Actions for {name}",
+     "de": "Aktionen für {name}"
+    },
+    {
+     "key": "savePlace",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Save {name}",
+     "de": "{name} speichern"
+    },
+    {
+     "key": "removeSavedPlace",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Remove {name} from saved places",
+     "de": "{name} aus gespeicherten Orten entfernen"
+    },
+    {
+     "key": "save",
+     "kind": "text",
+     "params": [],
+     "en": "Save",
+     "de": "Speichern"
+    },
+    {
+     "key": "website",
+     "kind": "text",
+     "params": [],
+     "en": "Website",
+     "de": "Website"
+    },
+    {
+     "key": "instagram",
+     "kind": "text",
+     "params": [],
+     "en": "Instagram",
+     "de": "Instagram"
+    },
+    {
+     "key": "terrace",
+     "kind": "text",
+     "params": [],
+     "en": "Terrace",
+     "de": "Terrasse"
+    },
+    {
+     "key": "lunchMenu",
+     "kind": "text",
+     "params": [],
+     "en": "Lunch menu",
+     "de": "Mittagsmenü"
+    },
+    {
+     "key": "budget",
+     "kind": "text",
+     "params": [],
+     "en": "Budget",
+     "de": "Günstig"
+    },
+    {
+     "key": "opened",
+     "kind": "text",
+     "params": [],
+     "en": "Opened",
+     "de": "Eröffnet"
+    },
+    {
+     "key": "address",
+     "kind": "text",
+     "params": [],
+     "en": "Address",
+     "de": "Adresse"
+    },
+    {
+     "key": "copyAddress",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Copy the address of {name}",
+     "de": "Adresse von {name} kopieren"
+    },
+    {
+     "key": "addressCopied",
+     "kind": "text",
+     "params": [],
+     "en": "Address copied",
+     "de": "Adresse kopiert"
+    },
+    {
+     "key": "copyUnavailable",
+     "kind": "text",
+     "params": [],
+     "en": "Copy not available here",
+     "de": "Kopieren hier nicht möglich"
+    },
+    {
+     "key": "goodToKnow",
+     "kind": "text",
+     "params": [],
+     "en": "Good to know",
+     "de": "Gut zu wissen"
+    },
+    {
+     "key": "each",
+     "kind": "text",
+     "params": [],
+     "en": "each",
+     "de": "je"
+    },
+    {
+     "key": "hours",
+     "kind": "text",
+     "params": [],
+     "en": "Opening Hours",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "key": "type",
+     "kind": "text",
+     "params": [],
+     "en": "Type",
+     "de": "Art"
+    },
+    {
+     "key": "price",
+     "kind": "text",
+     "params": [],
+     "en": "Price range",
+     "de": "Preisklasse"
+    },
+    {
+     "key": "mustTry",
+     "kind": "text",
+     "params": [],
+     "en": "Must try",
+     "de": "Unbedingt probieren"
+    },
+    {
+     "key": "pricesChf",
+     "kind": "text",
+     "params": [],
+     "en": "Prices in CHF",
+     "de": "Preise in CHF"
+    },
+    {
+     "key": "amenities",
+     "kind": "text",
+     "params": [],
+     "en": "Amenities & dietary options",
+     "de": "Ausstattung & Ernährungsoptionen"
+    },
+    {
+     "key": "loyalty",
+     "kind": "text",
+     "params": [],
+     "en": "Loyalty",
+     "de": "Treueprogramm"
+    },
+    {
+     "key": "accessLabels.stepFree",
+     "kind": "text",
+     "params": [],
+     "en": "Entrance without steps",
+     "de": "Stufenloser Zugang"
+    },
+    {
+     "key": "accessLabels.steps",
+     "kind": "text",
+     "params": [],
+     "en": "Steps at the entrance",
+     "de": "Stufen am Eingang"
+    },
+    {
+     "key": "amenityLabels.accessibleWc",
+     "kind": "text",
+     "params": [],
+     "en": "Accessible toilet",
+     "de": "Barrierefreies WC"
+    },
+    {
+     "key": "amenityLabels.dogFriendly",
+     "kind": "text",
+     "params": [],
+     "en": "Dog-friendly",
+     "de": "Hunde willkommen"
+    },
+    {
+     "key": "amenityLabels.wifi",
+     "kind": "text",
+     "params": [],
+     "en": "Wi-Fi",
+     "de": "WLAN"
+    },
+    {
+     "key": "amenityLabels.sockets",
+     "kind": "text",
+     "params": [],
+     "en": "Power sockets",
+     "de": "Steckdosen"
+    },
+    {
+     "key": "amenityLabels.vegetarian",
+     "kind": "text",
+     "params": [],
+     "en": "Vegetarian options",
+     "de": "Vegetarische Optionen"
+    },
+    {
+     "key": "amenityLabels.vegan",
+     "kind": "text",
+     "params": [],
+     "en": "Vegan options",
+     "de": "Vegane Optionen"
+    },
+    {
+     "key": "amenityLabels.glutenFree",
+     "kind": "text",
+     "params": [],
+     "en": "Gluten-free options",
+     "de": "Glutenfreie Optionen"
+    },
+    {
+     "key": "lastVerified",
+     "kind": "text",
+     "params": [],
+     "en": "Last verified",
+     "de": "Zuletzt geprüft"
+    },
+    {
+     "key": "photoCredits",
+     "kind": "text",
+     "params": [],
+     "en": "Photos",
+     "de": "Fotos"
+    },
+    {
+     "key": "access",
+     "kind": "text",
+     "params": [],
+     "en": "Access",
+     "de": "Zugang"
+    },
+    {
+     "key": "approximate",
+     "kind": "text",
+     "params": [],
+     "en": "approximate",
+     "de": "ungefähr"
+    },
+    {
+     "key": "hoursPending",
+     "kind": "text",
+     "params": [],
+     "en": "Opening hours not yet available",
+     "de": "Öffnungszeiten noch nicht verfügbar"
+    },
+    {
+     "key": "closed",
+     "kind": "text",
+     "params": [],
+     "en": "Closed",
+     "de": "Geschlossen"
+    },
+    {
+     "key": "openNow",
+     "kind": "text",
+     "params": [],
+     "en": "Open",
+     "de": "Offen"
+    },
+    {
+     "key": "closesAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "time",
+       "type": "string"
+      }
+     ],
+     "en": "Closes soon {time}",
+     "de": "Schliesst bald {time}"
+    },
+    {
+     "key": "opensAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "time",
+       "type": "string"
+      }
+     ],
+     "en": "Opens soon {time}",
+     "de": "Öffnet bald {time}"
+    },
+    {
+     "key": "closedUntil",
+     "kind": "template",
+     "params": [
+      {
+       "name": "time",
+       "type": "string"
+      }
+     ],
+     "en": "Closed until {time}",
+     "de": "Geschlossen bis {time}"
+    },
+    {
+     "key": "closedUntilDay",
+     "kind": "template",
+     "params": [
+      {
+       "name": "day",
+       "type": "string"
+      },
+      {
+       "name": "time",
+       "type": "string"
+      }
+     ],
+     "en": "Closed until {day} {time}",
+     "de": "Geschlossen bis {day} {time}"
+    },
+    {
+     "key": "weekdaysShort.mon",
+     "kind": "text",
+     "params": [],
+     "en": "Mon",
+     "de": "Mo"
+    },
+    {
+     "key": "weekdaysShort.tue",
+     "kind": "text",
+     "params": [],
+     "en": "Tue",
+     "de": "Di"
+    },
+    {
+     "key": "weekdaysShort.wed",
+     "kind": "text",
+     "params": [],
+     "en": "Wed",
+     "de": "Mi"
+    },
+    {
+     "key": "weekdaysShort.thu",
+     "kind": "text",
+     "params": [],
+     "en": "Thu",
+     "de": "Do"
+    },
+    {
+     "key": "weekdaysShort.fri",
+     "kind": "text",
+     "params": [],
+     "en": "Fri",
+     "de": "Fr"
+    },
+    {
+     "key": "weekdaysShort.sat",
+     "kind": "text",
+     "params": [],
+     "en": "Sat",
+     "de": "Sa"
+    },
+    {
+     "key": "weekdaysShort.sun",
+     "kind": "text",
+     "params": [],
+     "en": "Sun",
+     "de": "So"
+    },
+    {
+     "key": "weekdays.mon",
+     "kind": "text",
+     "params": [],
+     "en": "Monday",
+     "de": "Montag"
+    },
+    {
+     "key": "weekdays.tue",
+     "kind": "text",
+     "params": [],
+     "en": "Tuesday",
+     "de": "Dienstag"
+    },
+    {
+     "key": "weekdays.wed",
+     "kind": "text",
+     "params": [],
+     "en": "Wednesday",
+     "de": "Mittwoch"
+    },
+    {
+     "key": "weekdays.thu",
+     "kind": "text",
+     "params": [],
+     "en": "Thursday",
+     "de": "Donnerstag"
+    },
+    {
+     "key": "weekdays.fri",
+     "kind": "text",
+     "params": [],
+     "en": "Friday",
+     "de": "Freitag"
+    },
+    {
+     "key": "weekdays.sat",
+     "kind": "text",
+     "params": [],
+     "en": "Saturday",
+     "de": "Samstag"
+    },
+    {
+     "key": "weekdays.sun",
+     "kind": "text",
+     "params": [],
+     "en": "Sunday",
+     "de": "Sonntag"
+    },
+    {
+     "key": "days.Monday",
+     "kind": "text",
+     "params": [],
+     "en": "Monday",
+     "de": "Montag"
+    },
+    {
+     "key": "days.Monday–Friday",
+     "kind": "text",
+     "params": [],
+     "en": "Monday–Friday",
+     "de": "Montag–Freitag"
+    },
+    {
+     "key": "days.Tuesday–Friday",
+     "kind": "text",
+     "params": [],
+     "en": "Tuesday–Friday",
+     "de": "Dienstag–Freitag"
+    },
+    {
+     "key": "days.Tuesday–Saturday",
+     "kind": "text",
+     "params": [],
+     "en": "Tuesday–Saturday",
+     "de": "Dienstag–Samstag"
+    },
+    {
+     "key": "days.Saturday",
+     "kind": "text",
+     "params": [],
+     "en": "Saturday",
+     "de": "Samstag"
+    },
+    {
+     "key": "days.Saturday–Sunday",
+     "kind": "text",
+     "params": [],
+     "en": "Saturday–Sunday",
+     "de": "Samstag–Sonntag"
+    },
+    {
+     "key": "days.Sunday",
+     "kind": "text",
+     "params": [],
+     "en": "Sunday",
+     "de": "Sonntag"
+    },
+    {
+     "key": "accessPending",
+     "kind": "text",
+     "params": [],
+     "en": "Step-free entry still to check",
+     "de": "Stufenloser Zugang noch zu prüfen"
+    },
+    {
+     "key": "openedToday",
+     "kind": "text",
+     "params": [],
+     "en": "Opened today",
+     "de": "Heute eröffnet"
+    },
+    {
+     "key": "openedYesterday",
+     "kind": "text",
+     "params": [],
+     "en": "Opened yesterday",
+     "de": "Gestern eröffnet"
+    },
+    {
+     "key": "daysOpen",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Open {n} days",
+     "de": "Seit {n} Tagen"
+    },
+    {
+     "key": "weeksOpen",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Open {n} weeks",
+     "de": "Seit {n} Wochen"
+    },
+    {
+     "key": "sinceMonth",
+     "kind": "template",
+     "params": [
+      {
+       "name": "month",
+       "type": "string"
+      }
+     ],
+     "en": "Open since {month}",
+     "de": "Seit {month}"
+    },
+    {
+     "key": "today",
+     "kind": "text",
+     "params": [],
+     "en": "Today",
+     "de": "Heute"
+    },
+    {
+     "key": "daysShort",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n}d",
+     "de": "{n}T"
+    },
+    {
+     "key": "weeksShort",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n}w",
+     "de": "{n}W"
+    }
+   ]
+  },
+  {
+   "id": "widgets/welcome/strings",
+   "file": "packages/widget-runtime/src/widgets/welcome/strings.ts",
+   "context": "The tile speaks to where the person is with Ari. A stranger (anonymous,\nor a host with no user facade at all) is asked in; someone logged in is\ngreeted as a regular. The lead asks for the account and goes quiet once\nthere is one. Location is not its ask any more: a wall without a fix\nstands on Zürich HB and the grid's placement notice, right under this\ntile, asks for the real one (grid/placement-notice-strings.ts), so the two\nnever say the same thing. Bracketed words are the underlined links\n(preview.ts renderLead).\n\nVocabulary follows the account flow the tap opens: a stranger is on an\nanonymous session with no account yet, so the ask is to SIGN UP (iOS\nsettings: \"Create your account\" / \"Erstelle dein Konto\"), never to sign\nin — ari-landing's pair is \"Log in\" + \"Sign up\", \"Anmelden\" +\n\"registrieren\"/\"Konto erstellen\". Sign-in words are for people who\nalready have an account (wording decision 2026-09-04).",
+   "keys": [
+    {
+     "key": "greetingStranger",
+     "kind": "text",
+     "params": [],
+     "en": "Hey 👋 stranger!",
+     "de": "Hey 👋 Fremde:r!"
+    },
+    {
+     "key": "greetingKnown",
+     "kind": "text",
+     "params": [],
+     "en": "Hi 👋 there!",
+     "de": "Hi 👋 du!"
+    },
+    {
+     "key": "leadSignUp",
+     "kind": "text",
+     "params": [],
+     "en": "[Sign up] to make Ari yours.",
+     "de": "[Erstelle dein Konto], damit Ari deins wird."
+    },
+    {
+     "key": "ctaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Settings",
+     "de": "Einstellungen"
+    },
+    {
+     "key": "openSettings",
+     "kind": "text",
+     "params": [],
+     "en": "Open settings",
+     "de": "Einstellungen öffnen"
+    }
+   ]
+  },
+  {
+   "id": "widgets/whats-on/strings",
+   "file": "packages/widget-runtime/src/widgets/whats-on/strings.ts",
+   "context": "What's On — everything the widget prints, in the reader's language.\n\nOrganised by surface, not alphabetically: a translator works through one\nscreen at a time, and a key's neighbours should be the words next to it on\nthat screen.\n\nTwo rules this file exists to keep:\n\n1. **A label is never an id.** `humanizeTag()` feeds the chip display\nlabel AND the search token index; the category keys feed the facet\nfilter. Translating those in place would break query parsing and\nfiltering. So display labels live here, keyed BY the English id, and\nthe id itself is never touched — the same split PR #1371 made for\n`widget-rating`, and why a German user picking 'Info fehlt' still\npersists `Missing info`.\n2. **Numbers, dates and distances belong to `Intl`,** not to a template\nin here. German writes '1,2 km' and 'Mi., 26. Aug.'. This file holds\nthe words around the number; `formatters(formatLocale)` holds the\nnumber.\n\nQuery vocabulary — the German words a person TYPES — lives next door in\n`search-vocabulary.ts`. Translating what we print and understanding what\nthey write are different jobs, and only one of them is copy.",
+   "keys": [
+    {
+     "key": "searchPlaceholder",
+     "kind": "text",
+     "params": [],
+     "en": "Search events, DJs, venues, vibes",
+     "de": "Events, DJs, Venues, Vibes suchen"
+    },
+    {
+     "key": "searchLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Search events",
+     "de": "Events suchen"
+    },
+    {
+     "key": "searchEventsShort",
+     "kind": "text",
+     "params": [],
+     "en": "Search events",
+     "de": "Events suchen"
+    },
+    {
+     "key": "clearSearch",
+     "kind": "text",
+     "params": [],
+     "en": "Clear search",
+     "de": "Suche löschen"
+    },
+    {
+     "key": "resultCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} RESULT{n, plural, one {} other {S}}",
+     "de": "{n} TREFFER"
+    },
+    {
+     "key": "acrossDays",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "ACROSS {n} DAY{n, plural, one {} other {S}}",
+     "de": "AN {n} TAG{n, plural, one {} other {EN}}"
+    },
+    {
+     "key": "topOf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "TOP {n}",
+     "de": "TOP {n}"
+    },
+    {
+     "key": "onNow",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} ON NOW",
+     "de": "{n, plural, one {1 LÄUFT JETZT} other {{n} LAUFEN JETZT}}"
+    },
+    {
+     "key": "bestMatches",
+     "kind": "text",
+     "params": [],
+     "en": "Best matches",
+     "de": "Beste Treffer"
+    },
+    {
+     "key": "partialMatch",
+     "kind": "template",
+     "params": [
+      {
+       "name": "words",
+       "type": "string"
+      }
+     ],
+     "en": "Nothing matched every word. Showing the closest, without {words}.",
+     "de": "Nicht jedes Wort passt. Hier das Nächstliegende, ohne {words}."
+    },
+    {
+     "key": "quote",
+     "kind": "template",
+     "params": [
+      {
+       "name": "word",
+       "type": "string"
+      }
+     ],
+     "en": "“{word}”",
+     "de": "„{word}“"
+    },
+    {
+     "key": "listAnd",
+     "kind": "text",
+     "params": [],
+     "en": "and",
+     "de": "und"
+    },
+    {
+     "key": "statusCancelled",
+     "kind": "text",
+     "params": [],
+     "en": "Cancelled",
+     "de": "Abgesagt"
+    },
+    {
+     "key": "statusPostponed",
+     "kind": "text",
+     "params": [],
+     "en": "Postponed",
+     "de": "Verschoben"
+    },
+    {
+     "key": "statusMoved",
+     "kind": "text",
+     "params": [],
+     "en": "Moved",
+     "de": "Verlegt"
+    },
+    {
+     "key": "tonight",
+     "kind": "text",
+     "params": [],
+     "en": "Tonight",
+     "de": "Heute Abend"
+    },
+    {
+     "key": "today",
+     "kind": "text",
+     "params": [],
+     "en": "Today",
+     "de": "Heute"
+    },
+    {
+     "key": "tomorrow",
+     "kind": "text",
+     "params": [],
+     "en": "Tomorrow",
+     "de": "Morgen"
+    },
+    {
+     "key": "timeNow",
+     "kind": "text",
+     "params": [],
+     "en": "now",
+     "de": "jetzt"
+    },
+    {
+     "key": "timeUnknown",
+     "kind": "text",
+     "params": [],
+     "en": "time TBA",
+     "de": "Zeit noch offen"
+    },
+    {
+     "key": "runsUntil",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "runs until {date}",
+     "de": "läuft bis {date}"
+    },
+    {
+     "key": "endsAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "hhmm",
+       "type": "string"
+      }
+     ],
+     "en": "ends {hhmm}",
+     "de": "endet {hhmm}"
+    },
+    {
+     "key": "inMinutes",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "in {n} min",
+     "de": "in {n} Min."
+    },
+    {
+     "key": "inHours",
+     "kind": "template",
+     "params": [
+      {
+       "name": "h",
+       "type": "number"
+      }
+     ],
+     "en": "in {h} h",
+     "de": "in {h} Std."
+    },
+    {
+     "key": "inHoursMinutes",
+     "kind": "template",
+     "params": [
+      {
+       "name": "h",
+       "type": "number"
+      },
+      {
+       "name": "mm",
+       "type": "string"
+      }
+     ],
+     "en": "in {h} h {mm}",
+     "de": "in {h} Std. {mm}"
+    },
+    {
+     "key": "sellingFast",
+     "kind": "text",
+     "params": [],
+     "en": "selling fast",
+     "de": "fast ausverkauft"
+    },
+    {
+     "key": "kreis",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Kreis {n}",
+     "de": "Kreis {n}"
+    },
+    {
+     "key": "regionFallback",
+     "kind": "text",
+     "params": [],
+     "en": "Region",
+     "de": "Region"
+    },
+    {
+     "key": "shelfNow",
+     "kind": "text",
+     "params": [],
+     "en": "On |right now|",
+     "de": "Läuft |gerade|"
+    },
+    {
+     "key": "shelfNowBarLabel",
+     "kind": "template",
+     "params": [
+      {
+       "name": "title",
+       "type": "string"
+      },
+      {
+       "name": "percent",
+       "type": "number"
+      }
+     ],
+     "en": "{title}, {percent}% of the way through",
+     "de": "{title}, zu {percent}% vorbei"
+    },
+    {
+     "key": "shelfNowLeft",
+     "kind": "code",
+     "params": [
+      {
+       "name": "d",
+       "type": "number"
+      },
+      {
+       "name": "h",
+       "type": "number"
+      },
+      {
+       "name": "m",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "key": "shelfNowMore",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Show {n} more",
+     "de": "{n} weitere anzeigen"
+    },
+    {
+     "key": "dayLoadMore",
+     "kind": "text",
+     "params": [],
+     "en": "Load more",
+     "de": "Mehr laden"
+    },
+    {
+     "key": "shelfDoorstep",
+     "kind": "text",
+     "params": [],
+     "en": "Around the |block|",
+     "de": "Um die |Ecke|"
+    },
+    {
+     "key": "shelfKreise",
+     "kind": "text",
+     "params": [],
+     "en": "By |Kreis|",
+     "de": "Nach |Kreis|"
+    },
+    {
+     "key": "allKreise",
+     "kind": "text",
+     "params": [],
+     "en": "All Kreise",
+     "de": "Alle Kreise"
+    },
+    {
+     "key": "shelfKreiseSub",
+     "kind": "text",
+     "params": [],
+     "en": "Tap one to see the events",
+     "de": "Tipp einen an für die Events"
+    },
+    {
+     "key": "shelfKreisSub",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {event} other {events}} coming up",
+     "de": "{n} {n, plural, one {Event} other {Events}} demnächst"
+    },
+    {
+     "key": "shelfAfterMidnight",
+     "kind": "text",
+     "params": [],
+     "en": "After |midnight|",
+     "de": "Nach |Mitternacht|"
+    },
+    {
+     "key": "shelfFreeOutside",
+     "kind": "text",
+     "params": [],
+     "en": "Free |and outside|",
+     "de": "Gratis |und draussen|"
+    },
+    {
+     "key": "shelfTrip",
+     "kind": "text",
+     "params": [],
+     "en": "Outside the |city|",
+     "de": "Ausserhalb der |Stadt|"
+    },
+    {
+     "key": "shelfTripSub",
+     "kind": "text",
+     "params": [],
+     "en": "Worth the trip",
+     "de": "Die Reise wert"
+    },
+    {
+     "key": "shelfKids",
+     "kind": "text",
+     "params": [],
+     "en": "With |the kids|",
+     "de": "Mit |den Kindern|"
+    },
+    {
+     "key": "shelfAll",
+     "kind": "text",
+     "params": [],
+     "en": "All",
+     "de": "Alle"
+    },
+    {
+     "key": "walkMinutes",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} min walk",
+     "de": "{n} Min. zu Fuss"
+    },
+    {
+     "key": "untilTime",
+     "kind": "template",
+     "params": [
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "till {t}",
+     "de": "bis {t}"
+    },
+    {
+     "key": "kreisEvents",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {event} other {events}}",
+     "de": "{n} {n, plural, one {Event} other {Events}}"
+    },
+    {
+     "key": "kreisVenues",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {venue} other {venues}}",
+     "de": "{n} {n, plural, one {Ort} other {Orte}}"
+    },
+    {
+     "key": "backToFeedShort",
+     "kind": "text",
+     "params": [],
+     "en": "Back",
+     "de": "Zurück"
+    },
+    {
+     "key": "shareWord",
+     "kind": "text",
+     "params": [],
+     "en": "Share",
+     "de": "Teilen"
+    },
+    {
+     "key": "kreisEmpty",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing on here right now.",
+     "de": "Hier läuft gerade nichts."
+    },
+    {
+     "key": "etaWalk",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "string"
+      }
+     ],
+     "en": "{n} min walk",
+     "de": "{n} Min. zu Fuss"
+    },
+    {
+     "key": "etaTram",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "string"
+      }
+     ],
+     "en": "{n} min tram",
+     "de": "{n} Min. Tram"
+    },
+    {
+     "key": "etaRail",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "string"
+      }
+     ],
+     "en": "{n} min S-Bahn",
+     "de": "{n} Min. S-Bahn"
+    },
+    {
+     "key": "etaBike",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "string"
+      }
+     ],
+     "en": "{n} min bike",
+     "de": "{n} Min. Velo"
+    },
+    {
+     "key": "musicAndNightlife",
+     "kind": "text",
+     "params": [],
+     "en": "Music & Nightlife",
+     "de": "Musik & Nachtleben"
+    },
+    {
+     "key": "category.music",
+     "kind": "text",
+     "params": [],
+     "en": "Music",
+     "de": "Musik"
+    },
+    {
+     "key": "category.nightlife",
+     "kind": "text",
+     "params": [],
+     "en": "Nightlife",
+     "de": "Nachtleben"
+    },
+    {
+     "key": "category.culture",
+     "kind": "text",
+     "params": [],
+     "en": "Culture",
+     "de": "Kultur"
+    },
+    {
+     "key": "category.food",
+     "kind": "text",
+     "params": [],
+     "en": "Food",
+     "de": "Essen"
+    },
+    {
+     "key": "category.sports",
+     "kind": "text",
+     "params": [],
+     "en": "Sports",
+     "de": "Sport"
+    },
+    {
+     "key": "category.wellness",
+     "kind": "text",
+     "params": [],
+     "en": "Wellness",
+     "de": "Wellness"
+    },
+    {
+     "key": "category.community",
+     "kind": "text",
+     "params": [],
+     "en": "Community",
+     "de": "Community"
+    },
+    {
+     "key": "category.learning",
+     "kind": "text",
+     "params": [],
+     "en": "Learning",
+     "de": "Lernen"
+    },
+    {
+     "key": "category.tours",
+     "kind": "text",
+     "params": [],
+     "en": "Tours",
+     "de": "Touren"
+    },
+    {
+     "key": "category.markets",
+     "kind": "text",
+     "params": [],
+     "en": "Markets",
+     "de": "Märkte"
+    },
+    {
+     "key": "filtersLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Filters",
+     "de": "Filter"
+    },
+    {
+     "key": "everything",
+     "kind": "text",
+     "params": [],
+     "en": "Everything",
+     "de": "Alles"
+    },
+    {
+     "key": "allFilters",
+     "kind": "text",
+     "params": [],
+     "en": "All filters",
+     "de": "Alle Filter"
+    },
+    {
+     "key": "fewerFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Fewer filters",
+     "de": "Weniger Filter"
+    },
+    {
+     "key": "manageFilters",
+     "kind": "text",
+     "params": [],
+     "en": "More filters",
+     "de": "Mehr Filter"
+    },
+    {
+     "key": "manageFiltersHint",
+     "kind": "text",
+     "params": [],
+     "en": "Choose the filters you want to use",
+     "de": "Wähle die Filter, die du nutzen willst"
+    },
+    {
+     "key": "clearAllFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Clear all filters",
+     "de": "Alle Filter zurücksetzen"
+    },
+    {
+     "key": "clearAll",
+     "kind": "text",
+     "params": [],
+     "en": "Clear all",
+     "de": "Zurücksetzen"
+    },
+    {
+     "key": "stripLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Narrow, order and search the list",
+     "de": "Liste eingrenzen, sortieren und durchsuchen"
+    },
+    {
+     "key": "searchDoor",
+     "kind": "text",
+     "params": [],
+     "en": "Search",
+     "de": "Suchen"
+    },
+    {
+     "key": "savesDoor",
+     "kind": "text",
+     "params": [],
+     "en": "Saves",
+     "de": "Gespeichert"
+    },
+    {
+     "key": "nPicked",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} picked",
+     "de": "{n} gewählt"
+    },
+    {
+     "key": "anyWord",
+     "kind": "text",
+     "params": [],
+     "en": "Any",
+     "de": "Egal"
+    },
+    {
+     "key": "allWord",
+     "kind": "text",
+     "params": [],
+     "en": "All",
+     "de": "Alle"
+    },
+    {
+     "key": "anytimeWord",
+     "kind": "text",
+     "params": [],
+     "en": "Anytime",
+     "de": "Jederzeit"
+    },
+    {
+     "key": "myPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "Clubs & Venues",
+     "de": "Clubs & Venues"
+    },
+    {
+     "key": "sortNearest",
+     "kind": "text",
+     "params": [],
+     "en": "Nearest",
+     "de": "Nächste"
+    },
+    {
+     "key": "sortSoonest",
+     "kind": "text",
+     "params": [],
+     "en": "Soonest",
+     "de": "Bald"
+    },
+    {
+     "key": "anyPrice",
+     "kind": "text",
+     "params": [],
+     "en": "Any price",
+     "de": "Egal"
+    },
+    {
+     "key": "datePick",
+     "kind": "text",
+     "params": [],
+     "en": "Select date",
+     "de": "Datum wählen"
+    },
+    {
+     "key": "filter.when.label",
+     "kind": "text",
+     "params": [],
+     "en": "When",
+     "de": "Wann"
+    },
+    {
+     "key": "filter.when.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Today, tomorrow, the weekend",
+     "de": "Heute, morgen, am Wochenende"
+    },
+    {
+     "key": "filter.what.label",
+     "kind": "text",
+     "params": [],
+     "en": "What",
+     "de": "Was"
+    },
+    {
+     "key": "filter.what.hint",
+     "kind": "text",
+     "params": [],
+     "en": "The seven categories",
+     "de": "Die sieben Kategorien"
+    },
+    {
+     "key": "filter.places.label",
+     "kind": "text",
+     "params": [],
+     "en": "Clubs/Venues",
+     "de": "Clubs/Venues"
+    },
+    {
+     "key": "filter.places.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Only your saved clubs and venues",
+     "de": "Nur deine gespeicherten Clubs und Venues"
+    },
+    {
+     "key": "filter.within.label",
+     "kind": "text",
+     "params": [],
+     "en": "Within",
+     "de": "Umkreis"
+    },
+    {
+     "key": "filter.within.hint",
+     "kind": "text",
+     "params": [],
+     "en": "How many minutes you are willing to walk",
+     "de": "Wie viele Minuten du zu Fuss gehen magst"
+    },
+    {
+     "key": "filter.price.label",
+     "kind": "text",
+     "params": [],
+     "en": "Price",
+     "de": "Preis"
+    },
+    {
+     "key": "filter.price.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Free, or a cap in francs",
+     "de": "Gratis, oder eine Obergrenze in Franken"
+    },
+    {
+     "key": "filter.order.label",
+     "kind": "text",
+     "params": [],
+     "en": "Order",
+     "de": "Reihenfolge"
+    },
+    {
+     "key": "filter.order.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Soonest or nearest first",
+     "de": "Zuerst das Baldigste oder das Nächste"
+    },
+    {
+     "key": "dayScope.today",
+     "kind": "text",
+     "params": [],
+     "en": "Today",
+     "de": "Heute"
+    },
+    {
+     "key": "dayScope.tomorrow",
+     "kind": "text",
+     "params": [],
+     "en": "Tomorrow",
+     "de": "Morgen"
+    },
+    {
+     "key": "dayScope.weekend",
+     "kind": "text",
+     "params": [],
+     "en": "Weekend",
+     "de": "Wochenende"
+    },
+    {
+     "key": "dayScope.week",
+     "kind": "text",
+     "params": [],
+     "en": "7 days",
+     "de": "7 Tage"
+    },
+    {
+     "key": "timeOfDayWord",
+     "kind": "text",
+     "params": [],
+     "en": "Time of day",
+     "de": "Tageszeit"
+    },
+    {
+     "key": "wholeDayWord",
+     "kind": "text",
+     "params": [],
+     "en": "Whole day",
+     "de": "Ganzer Tag"
+    },
+    {
+     "key": "timeOfDay.morning",
+     "kind": "text",
+     "params": [],
+     "en": "Morning",
+     "de": "Vormittag"
+    },
+    {
+     "key": "timeOfDay.lunch",
+     "kind": "text",
+     "params": [],
+     "en": "Lunch",
+     "de": "Mittag"
+    },
+    {
+     "key": "timeOfDay.afternoon",
+     "kind": "text",
+     "params": [],
+     "en": "Afternoon",
+     "de": "Nachmittag"
+    },
+    {
+     "key": "timeOfDay.evening",
+     "kind": "text",
+     "params": [],
+     "en": "Evening",
+     "de": "Abend"
+    },
+    {
+     "key": "timeOfDay.night",
+     "kind": "text",
+     "params": [],
+     "en": "Night",
+     "de": "Nacht"
+    },
+    {
+     "key": "priceCap.free",
+     "kind": "text",
+     "params": [],
+     "en": "Free",
+     "de": "Gratis"
+    },
+    {
+     "key": "priceCap.max25",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 25 max",
+     "de": "max. CHF 25"
+    },
+    {
+     "key": "priceCap.max50",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 50 max",
+     "de": "max. CHF 50"
+    },
+    {
+     "key": "priceCap.max100",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 100 max",
+     "de": "max. CHF 100"
+    },
+    {
+     "key": "priceCap.long25",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 25 or less",
+     "de": "CHF 25 oder weniger"
+    },
+    {
+     "key": "priceCap.long50",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 50 or less",
+     "de": "CHF 50 oder weniger"
+    },
+    {
+     "key": "priceCap.long100",
+     "kind": "text",
+     "params": [],
+     "en": "CHF 100 or less",
+     "de": "CHF 100 oder weniger"
+    },
+    {
+     "key": "area.altstadt",
+     "kind": "text",
+     "params": [],
+     "en": "Altstadt & City",
+     "de": "Altstadt & City"
+    },
+    {
+     "key": "area.enge",
+     "kind": "text",
+     "params": [],
+     "en": "Enge & Lake",
+     "de": "Enge & See"
+    },
+    {
+     "key": "area.wiedikon",
+     "kind": "text",
+     "params": [],
+     "en": "Wiedikon",
+     "de": "Wiedikon"
+    },
+    {
+     "key": "area.langstrasse",
+     "kind": "text",
+     "params": [],
+     "en": "Langstrasse",
+     "de": "Langstrasse"
+    },
+    {
+     "key": "area.zuerich-west",
+     "kind": "text",
+     "params": [],
+     "en": "Zürich-West",
+     "de": "Zürich-West"
+    },
+    {
+     "key": "area.unterstrass",
+     "kind": "text",
+     "params": [],
+     "en": "Unterstrass & Wipkingen",
+     "de": "Unterstrass & Wipkingen"
+    },
+    {
+     "key": "area.zueriberg",
+     "kind": "text",
+     "params": [],
+     "en": "Zürichberg",
+     "de": "Zürichberg"
+    },
+    {
+     "key": "area.seefeld",
+     "kind": "text",
+     "params": [],
+     "en": "Seefeld",
+     "de": "Seefeld"
+    },
+    {
+     "key": "area.altstetten",
+     "kind": "text",
+     "params": [],
+     "en": "Altstetten & Letzi",
+     "de": "Altstetten & Letzi"
+    },
+    {
+     "key": "area.oerlikon",
+     "kind": "text",
+     "params": [],
+     "en": "Oerlikon",
+     "de": "Oerlikon"
+    },
+    {
+     "key": "area.region",
+     "kind": "text",
+     "params": [],
+     "en": "Outside the city",
+     "de": "Ausserhalb der Stadt"
+    },
+    {
+     "key": "nothingFor",
+     "kind": "template",
+     "params": [
+      {
+       "name": "query",
+       "type": "string"
+      }
+     ],
+     "en": "Nothing for “{query}”.",
+     "de": "Nichts für „{query}“."
+    },
+    {
+     "key": "tryInstead",
+     "kind": "text",
+     "params": [],
+     "en": "Try",
+     "de": "Probier"
+    },
+    {
+     "key": "searchedAll",
+     "kind": "template",
+     "params": [
+      {
+       "name": "days",
+       "type": "number"
+      }
+     ],
+     "en": "Searched all of Zürich: titles, line-ups, venues and programmes, the next {days} days.",
+     "de": "Ganz Zürich durchsucht: Titel, Line-ups, Venues und Programme, die nächsten {days} Tage."
+    },
+    {
+     "key": "understoodFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Understood filters",
+     "de": "Erkannte Filter"
+    },
+    {
+     "key": "filterByCategory",
+     "kind": "text",
+     "params": [],
+     "en": "Filter results by category",
+     "de": "Treffer nach Kategorie filtern"
+    },
+    {
+     "key": "factVenue",
+     "kind": "text",
+     "params": [],
+     "en": "Venue",
+     "de": "Ort"
+    },
+    {
+     "key": "factOrganizer",
+     "kind": "text",
+     "params": [],
+     "en": "Organizer",
+     "de": "Veranstalter"
+    },
+    {
+     "key": "factWhen",
+     "kind": "text",
+     "params": [],
+     "en": "When",
+     "de": "Wann"
+    },
+    {
+     "key": "factRepeats",
+     "kind": "text",
+     "params": [],
+     "en": "Repeats",
+     "de": "Wiederholt sich"
+    },
+    {
+     "key": "factWeather",
+     "kind": "text",
+     "params": [],
+     "en": "Weather",
+     "de": "Wetter"
+    },
+    {
+     "key": "everyWeekday",
+     "kind": "template",
+     "params": [
+      {
+       "name": "days",
+       "type": "string"
+      }
+     ],
+     "en": "Every {days}",
+     "de": "Jeden {days}"
+    },
+    {
+     "key": "factTickets",
+     "kind": "text",
+     "params": [],
+     "en": "Tickets",
+     "de": "Tickets"
+    },
+    {
+     "key": "factFromHere",
+     "kind": "text",
+     "params": [],
+     "en": "From here",
+     "de": "Von hier"
+    },
+    {
+     "key": "factGoodFor",
+     "kind": "text",
+     "params": [],
+     "en": "Good for",
+     "de": "Geeignet für"
+    },
+    {
+     "key": "factSoldOut",
+     "kind": "text",
+     "params": [],
+     "en": "Sold out",
+     "de": "Ausverkauft"
+    },
+    {
+     "key": "familiesWelcome",
+     "kind": "text",
+     "params": [],
+     "en": "Families welcome",
+     "de": "Familien willkommen"
+    },
+    {
+     "key": "sectionLineup",
+     "kind": "text",
+     "params": [],
+     "en": "Line-up",
+     "de": "Line-up"
+    },
+    {
+     "key": "sectionTimetable",
+     "kind": "text",
+     "params": [],
+     "en": "Timetable",
+     "de": "Zeitplan"
+    },
+    {
+     "key": "programmeBreak",
+     "kind": "text",
+     "params": [],
+     "en": "Break",
+     "de": "Pause"
+    },
+    {
+     "key": "programmeEnd",
+     "kind": "text",
+     "params": [],
+     "en": "End",
+     "de": "Ende"
+    },
+    {
+     "key": "programmeOnNow",
+     "kind": "text",
+     "params": [],
+     "en": "On now",
+     "de": "Läuft gerade"
+    },
+    {
+     "key": "sectionGoodToKnow",
+     "kind": "text",
+     "params": [],
+     "en": "Good to know",
+     "de": "Gut zu wissen"
+    },
+    {
+     "key": "relatedTags",
+     "kind": "text",
+     "params": [],
+     "en": "Related tags",
+     "de": "Ähnliche Tags"
+    },
+    {
+     "key": "savedListsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Saved lists",
+     "de": "Meine Listen"
+    },
+    {
+     "key": "pickVenueTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Pick a venue",
+     "de": "Venue wählen"
+    },
+    {
+     "key": "emptyList",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing here yet. Add events below, or save them from any event page.",
+     "de": "Noch nichts hier. Füg unten Events hinzu, oder speichere sie von jeder Event-Seite."
+    },
+    {
+     "key": "emptyNoMatch",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing matches. Try a genre, venue or day.",
+     "de": "Nichts passt. Probier ein Genre, ein Venue oder einen Tag."
+    },
+    {
+     "key": "emptyNothingWeek",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing coming up here this week.",
+     "de": "Diese Woche kommt hier nichts."
+    },
+    {
+     "key": "emptyNoGigs",
+     "kind": "text",
+     "params": [],
+     "en": "No announced gigs on the horizon.",
+     "de": "Keine angekündigten Gigs in Sicht."
+    },
+    {
+     "key": "emptyNoVenues",
+     "kind": "text",
+     "params": [],
+     "en": "No clubs/venues match. Widen the cut.",
+     "de": "Keine Clubs/Venues passen. Mach den Filter weiter."
+    },
+    {
+     "key": "emptyNothingAnnounced",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing announced here yet.",
+     "de": "Hier ist noch nichts angekündigt."
+    },
+    {
+     "key": "emptyVenueGone",
+     "kind": "text",
+     "params": [],
+     "en": "This venue has left the directory.",
+     "de": "Dieses Venue ist nicht mehr im Verzeichnis."
+    },
+    {
+     "key": "emptyFetching",
+     "kind": "text",
+     "params": [],
+     "en": "Fetching the programme…",
+     "de": "Programm wird geladen…"
+    },
+    {
+     "key": "emptyEventsGone",
+     "kind": "text",
+     "params": [],
+     "en": "These events have left the programme.",
+     "de": "Diese Events sind nicht mehr im Programm."
+    },
+    {
+     "key": "emptyBusyMonth",
+     "kind": "text",
+     "params": [],
+     "en": "Busy month. The furthest days may be missing a few events.",
+     "de": "Voller Monat. Bei den fernsten Tagen fehlen vielleicht ein paar Events."
+    },
+    {
+     "key": "emptyPickDay",
+     "kind": "text",
+     "params": [],
+     "en": "Pick a day, or tap two to span a range.",
+     "de": "Wähl einen Tag, oder tipp zwei für einen Zeitraum."
+    },
+    {
+     "key": "clearSelection",
+     "kind": "text",
+     "params": [],
+     "en": "Clear selection",
+     "de": "Auswahl aufheben"
+    },
+    {
+     "key": "ariaClearDates",
+     "kind": "text",
+     "params": [],
+     "en": "Clear dates",
+     "de": "Daten löschen"
+    },
+    {
+     "key": "emptyNarrowed",
+     "kind": "template",
+     "params": [
+      {
+       "name": "filters",
+       "type": "string"
+      }
+     ],
+     "en": "Nothing on for {filters}. Loosen one of them.",
+     "de": "Für {filters} läuft nichts. Lockere einen davon."
+    },
+    {
+     "key": "emptyNothingOn",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing on right now.",
+     "de": "Gerade läuft nichts."
+    },
+    {
+     "key": "eventsAs",
+     "kind": "text",
+     "params": [],
+     "en": "Events as",
+     "de": "Events als"
+    },
+    {
+     "key": "appearanceLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Appearance",
+     "de": "Erscheinungsbild"
+    },
+    {
+     "key": "musicGenres",
+     "kind": "text",
+     "params": [],
+     "en": "Music genres",
+     "de": "Musikgenres"
+    },
+    {
+     "key": "subgenresLink",
+     "kind": "text",
+     "params": [],
+     "en": "Subgenres",
+     "de": "Stilrichtungen"
+    },
+    {
+     "key": "subgenresTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Subgenres",
+     "de": "Stilrichtungen"
+    },
+    {
+     "key": "subgenresSearch",
+     "kind": "text",
+     "params": [],
+     "en": "Search subgenres",
+     "de": "Stilrichtungen suchen"
+    },
+    {
+     "key": "subgenresNone",
+     "kind": "text",
+     "params": [],
+     "en": "No subgenre by that name.",
+     "de": "Keine Stilrichtung mit diesem Namen."
+    },
+    {
+     "key": "allOf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "label",
+       "type": "string"
+      }
+     ],
+     "en": "All {label}",
+     "de": "Alle {label}"
+    },
+    {
+     "key": "clearWord",
+     "kind": "text",
+     "params": [],
+     "en": "Clear",
+     "de": "Zurücksetzen"
+    },
+    {
+     "key": "applySelection",
+     "kind": "text",
+     "params": [],
+     "en": "Apply selection",
+     "de": "Auswahl übernehmen"
+    },
+    {
+     "key": "pickedOf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      },
+      {
+       "name": "of",
+       "type": "number"
+      }
+     ],
+     "en": "{n} of {of}",
+     "de": "{n} von {of}"
+    },
+    {
+     "key": "showEvents",
+     "kind": "code",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "key": "marketKinds",
+     "kind": "text",
+     "params": [],
+     "en": "Kinds of market",
+     "de": "Art von Markt"
+    },
+    {
+     "key": "marketKind.farmers-market",
+     "kind": "text",
+     "params": [],
+     "en": "Farmer's markets",
+     "de": "Wochenmärkte"
+    },
+    {
+     "key": "marketKind.flea-market",
+     "kind": "text",
+     "params": [],
+     "en": "Flea markets",
+     "de": "Flohmärkte"
+    },
+    {
+     "key": "withinLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Within",
+     "de": "Umkreis"
+    },
+    {
+     "key": "withinAny",
+     "kind": "text",
+     "params": [],
+     "en": "Any",
+     "de": "Egal"
+    },
+    {
+     "key": "myArtists",
+     "kind": "text",
+     "params": [],
+     "en": "Artists",
+     "de": "Artists"
+    },
+    {
+     "key": "comingUpHere",
+     "kind": "text",
+     "params": [],
+     "en": "Coming up here",
+     "de": "Demnächst hier"
+    },
+    {
+     "key": "sharedWithYou",
+     "kind": "text",
+     "params": [],
+     "en": "Shared with you",
+     "de": "Mit dir geteilt"
+    },
+    {
+     "key": "nearestFirst",
+     "kind": "text",
+     "params": [],
+     "en": "Nearest first",
+     "de": "Nächste zuerst"
+    },
+    {
+     "key": "listName",
+     "kind": "text",
+     "params": [],
+     "en": "List name",
+     "de": "Listenname"
+    },
+    {
+     "key": "newListName",
+     "kind": "text",
+     "params": [],
+     "en": "New list name",
+     "de": "Name der neuen Liste"
+    },
+    {
+     "key": "searchToAdd",
+     "kind": "text",
+     "params": [],
+     "en": "Search events to add. Try goa, open air, friday",
+     "de": "Events zum Hinzufügen suchen. Probier goa, open air, freitag"
+    },
+    {
+     "key": "searchVenues",
+     "kind": "text",
+     "params": [],
+     "en": "Search clubs/venues",
+     "de": "Clubs/Venues suchen"
+    },
+    {
+     "key": "searchVenuesLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Search clubs/venues by name or town",
+     "de": "Clubs/Venues nach Name oder Ort suchen"
+    },
+    {
+     "key": "clearPlaceSearch",
+     "kind": "text",
+     "params": [],
+     "en": "Clear place search",
+     "de": "Ortssuche löschen"
+    },
+    {
+     "key": "ariaEventLayout",
+     "kind": "text",
+     "params": [],
+     "en": "Event layout",
+     "de": "Event-Layout"
+    },
+    {
+     "key": "ariaSavesSections",
+     "kind": "text",
+     "params": [],
+     "en": "Saves sections",
+     "de": "Gespeichert-Bereiche"
+    },
+    {
+     "key": "ariaFilterRowLayout",
+     "kind": "text",
+     "params": [],
+     "en": "Filter row layout",
+     "de": "Layout der Filterzeile"
+    },
+    {
+     "key": "ariaTheme",
+     "kind": "text",
+     "params": [],
+     "en": "Theme",
+     "de": "Theme"
+    },
+    {
+     "key": "ariaFilterPlaces",
+     "kind": "text",
+     "params": [],
+     "en": "Filter places",
+     "de": "Orte filtern"
+    },
+    {
+     "key": "ariaCloseCalendar",
+     "kind": "text",
+     "params": [],
+     "en": "Close calendar",
+     "de": "Kalender schliessen"
+    },
+    {
+     "key": "ariaCalendar",
+     "kind": "text",
+     "params": [],
+     "en": "Calendar",
+     "de": "Kalender"
+    },
+    {
+     "key": "ariaOpenCalendar",
+     "kind": "text",
+     "params": [],
+     "en": "Open the month calendar",
+     "de": "Monatskalender öffnen"
+    },
+    {
+     "key": "ariaPreviousMonth",
+     "kind": "text",
+     "params": [],
+     "en": "Previous month",
+     "de": "Vorheriger Monat"
+    },
+    {
+     "key": "ariaNextMonth",
+     "kind": "text",
+     "params": [],
+     "en": "Next month",
+     "de": "Nächster Monat"
+    },
+    {
+     "key": "ariaNarrowOrder",
+     "kind": "text",
+     "params": [],
+     "en": "Narrow and order the list",
+     "de": "Liste eingrenzen und sortieren"
+    },
+    {
+     "key": "ariaSearchAndSaves",
+     "kind": "text",
+     "params": [],
+     "en": "Search and saves",
+     "de": "Suche und Gespeichertes"
+    },
+    {
+     "key": "ariaSuggestions",
+     "kind": "text",
+     "params": [],
+     "en": "Suggestions",
+     "de": "Vorschläge"
+    },
+    {
+     "key": "ariaStepOf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "step",
+       "type": "number"
+      },
+      {
+       "name": "total",
+       "type": "number"
+      }
+     ],
+     "en": "Step {step} of {total}",
+     "de": "Schritt {step} von {total}"
+    },
+    {
+     "key": "addEvents",
+     "kind": "text",
+     "params": [],
+     "en": "Add events",
+     "de": "Events hinzufügen"
+    },
+    {
+     "key": "addWord",
+     "kind": "text",
+     "params": [],
+     "en": "Add",
+     "de": "Hinzufügen"
+    },
+    {
+     "key": "allVenues",
+     "kind": "text",
+     "params": [],
+     "en": "All clubs/venues",
+     "de": "Alle Clubs/Venues"
+    },
+    {
+     "key": "backToSaves",
+     "kind": "text",
+     "params": [],
+     "en": "Back to Saved lists",
+     "de": "Zurück zu Meine Listen"
+    },
+    {
+     "key": "saveWord",
+     "kind": "text",
+     "params": [],
+     "en": "Save",
+     "de": "Speichern"
+    },
+    {
+     "key": "nextWord",
+     "kind": "text",
+     "params": [],
+     "en": "Next",
+     "de": "Weiter"
+    },
+    {
+     "key": "newList",
+     "kind": "text",
+     "params": [],
+     "en": "+ New list",
+     "de": "+ Neue Liste"
+    },
+    {
+     "key": "todayCaps",
+     "kind": "text",
+     "params": [],
+     "en": "TODAY",
+     "de": "HEUTE"
+    },
+    {
+     "key": "layoutFull",
+     "kind": "text",
+     "params": [],
+     "en": "Every filter laid out in full",
+     "de": "Jeder Filter voll ausgelegt"
+    },
+    {
+     "key": "layoutFolded",
+     "kind": "text",
+     "params": [],
+     "en": "Folded behind one Filters slip",
+     "de": "Zusammengefaltet hinter einem Filter-Zettel"
+    },
+    {
+     "key": "layoutStacked",
+     "kind": "text",
+     "params": [],
+     "en": "One row you slide through",
+     "de": "Eine Zeile zum Durchschieben"
+    },
+    {
+     "key": "keptToast",
+     "kind": "text",
+     "params": [],
+     "en": "Kept · find it under Saves → Surprise picks",
+     "de": "Behalten · findest du unter Gespeichert → Überraschungen"
+    },
+    {
+     "key": "savedToast",
+     "kind": "template",
+     "params": [
+      {
+       "name": "title",
+       "type": "string"
+      }
+     ],
+     "en": "{title} saved. Find it under Saves.",
+     "de": "{title} ist gespeichert, zu finden unter Gespeichert."
+    },
+    {
+     "key": "pagerRole",
+     "kind": "text",
+     "params": [],
+     "en": "carousel",
+     "de": "Karussell"
+    },
+    {
+     "key": "pagerLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Top picks",
+     "de": "Top-Tipps"
+    },
+    {
+     "key": "slideRole",
+     "kind": "text",
+     "params": [],
+     "en": "slide",
+     "de": "Folie"
+    },
+    {
+     "key": "slideOf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "i",
+       "type": "number"
+      },
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{i} of {n}",
+     "de": "{i} von {n}"
+    },
+    {
+     "key": "unsavedToast",
+     "kind": "template",
+     "params": [
+      {
+       "name": "title",
+       "type": "string"
+      }
+     ],
+     "en": "{title} removed from your saves.",
+     "de": "{title} aus deinen Gespeicherten entfernt."
+    },
+    {
+     "key": "savedToListToast",
+     "kind": "template",
+     "params": [
+      {
+       "name": "title",
+       "type": "string"
+      },
+      {
+       "name": "list",
+       "type": "string"
+      }
+     ],
+     "en": "{title} saved to {list}.",
+     "de": "{title} ist in {list} gespeichert."
+    },
+    {
+     "key": "unsavedFromListToast",
+     "kind": "template",
+     "params": [
+      {
+       "name": "title",
+       "type": "string"
+      },
+      {
+       "name": "list",
+       "type": "string"
+      }
+     ],
+     "en": "{title} removed from {list}.",
+     "de": "{title} aus {list} entfernt."
+    },
+    {
+     "key": "surpriseListName",
+     "kind": "text",
+     "params": [],
+     "en": "✦ Surprise picks",
+     "de": "✦ Überraschungen"
+    },
+    {
+     "key": "shareList",
+     "kind": "text",
+     "params": [],
+     "en": "Share list",
+     "de": "Liste teilen"
+    },
+    {
+     "key": "renameWord",
+     "kind": "text",
+     "params": [],
+     "en": "Rename",
+     "de": "Umbenennen"
+    },
+    {
+     "key": "deleteWord",
+     "kind": "text",
+     "params": [],
+     "en": "Delete",
+     "de": "Löschen"
+    },
+    {
+     "key": "ariaListActions",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Actions for {name}",
+     "de": "Aktionen für {name}"
+    },
+    {
+     "key": "noArtistsYet",
+     "kind": "text",
+     "params": [],
+     "en": "No artists followed yet. Tap Follow on any event line-up.",
+     "de": "Noch keinen Artists gefolgt. Tipp in jedem Line-up auf Folgen."
+    },
+    {
+     "key": "noPlacesYet",
+     "kind": "text",
+     "params": [],
+     "en": "No clubs or venues saved yet. Keep one from any event page, or browse below.",
+     "de": "Noch keine Clubs oder Venues gespeichert. Merk dir eins auf jeder Event-Seite, oder stöbere unten."
+    },
+    {
+     "key": "feedEnd",
+     "kind": "text",
+     "params": [],
+     "en": "You have reached the end.",
+     "de": "Das war’s für heute."
+    },
+    {
+     "key": "feedEndPrompt",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing caught your eye?",
+     "de": "Nichts dabei für dich?"
+    },
+    {
+     "key": "horizonEnd",
+     "kind": "template",
+     "params": [
+      {
+       "name": "month",
+       "type": "string"
+      }
+     ],
+     "en": "That is everything up to the end of {month}.",
+     "de": "Das ist alles bis Ende {month}."
+    },
+    {
+     "key": "loadMoreEvents",
+     "kind": "template",
+     "params": [
+      {
+       "name": "month",
+       "type": "string"
+      }
+     ],
+     "en": "Load {month}",
+     "de": "{month} laden"
+    },
+    {
+     "key": "settingsIntro",
+     "kind": "template",
+     "params": [
+      {
+       "name": "_title",
+       "type": "string"
+      }
+     ],
+     "en": "Make this your widget.",
+     "de": "Mach dieses Widget zu deinem."
+    },
+    {
+     "key": "colourLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Accent colour",
+     "de": "Akzentfarbe"
+    },
+    {
+     "key": "ariaWalkingTime",
+     "kind": "text",
+     "params": [],
+     "en": "Only events within this walking time",
+     "de": "Nur Events innerhalb dieser Gehzeit"
+    },
+    {
+     "key": "ariaPriceCap",
+     "kind": "text",
+     "params": [],
+     "en": "Only events at this price or less",
+     "de": "Nur Events zu diesem Preis oder weniger"
+    },
+    {
+     "key": "withinNeedsLocation",
+     "kind": "text",
+     "params": [],
+     "en": "Turn on location to filter by walking distance.",
+     "de": "Schalte den Standort ein, um nach Gehzeit zu filtern."
+    },
+    {
+     "key": "withinNeedsLocationWeb",
+     "kind": "text",
+     "params": [],
+     "en": "Needs your location to filter by walking distance.",
+     "de": "Braucht deinen Standort, um nach Gehzeit zu filtern."
+    },
+    {
+     "key": "enableLocation",
+     "kind": "text",
+     "params": [],
+     "en": "Enable location",
+     "de": "Standort aktivieren"
+    },
+    {
+     "key": "ariaSaved",
+     "kind": "text",
+     "params": [],
+     "en": "Saved",
+     "de": "Gespeichert"
+    },
+    {
+     "key": "actsCaps",
+     "kind": "text",
+     "params": [],
+     "en": "ACTS",
+     "de": "ACTS"
+    },
+    {
+     "key": "addedToSaves",
+     "kind": "text",
+     "params": [],
+     "en": "Added to your saves.",
+     "de": "Zu deinen Gespeicherten hinzugefügt."
+    },
+    {
+     "key": "artistsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Artists",
+     "de": "Artists"
+    },
+    {
+     "key": "themeAuto",
+     "kind": "text",
+     "params": [],
+     "en": "Auto",
+     "de": "Auto"
+    },
+    {
+     "key": "themeDark",
+     "kind": "text",
+     "params": [],
+     "en": "Dark",
+     "de": "Dunkel"
+    },
+    {
+     "key": "themeLight",
+     "kind": "text",
+     "params": [],
+     "en": "Light",
+     "de": "Hell"
+    },
+    {
+     "key": "backToVenues",
+     "kind": "text",
+     "params": [],
+     "en": "Back to Clubs/Venues",
+     "de": "Zurück zu Clubs/Venues"
+    },
+    {
+     "key": "backToSettings",
+     "kind": "text",
+     "params": [],
+     "en": "Back to Settings",
+     "de": "Zurück zu Einstellungen"
+    },
+    {
+     "key": "buyTickets",
+     "kind": "text",
+     "params": [],
+     "en": "Buy tickets",
+     "de": "Tickets kaufen"
+    },
+    {
+     "key": "getFreeTicket",
+     "kind": "text",
+     "params": [],
+     "en": "Get free ticket",
+     "de": "Gratis-Ticket holen"
+    },
+    {
+     "key": "registerForEvent",
+     "kind": "text",
+     "params": [],
+     "en": "Register for event",
+     "de": "Für Event anmelden"
+    },
+    {
+     "key": "getDirections",
+     "kind": "text",
+     "params": [],
+     "en": "Get directions",
+     "de": "Route anzeigen"
+    },
+    {
+     "key": "eventHeader",
+     "kind": "text",
+     "params": [],
+     "en": "Event",
+     "de": "Event"
+    },
+    {
+     "key": "eventDetails",
+     "kind": "text",
+     "params": [],
+     "en": "Event details",
+     "de": "Veranstaltungsdetails"
+    },
+    {
+     "key": "websiteWord",
+     "kind": "text",
+     "params": [],
+     "en": "Website",
+     "de": "Website"
+    },
+    {
+     "key": "eventActionsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Event actions",
+     "de": "Event-Aktionen"
+    },
+    {
+     "key": "flyerDirections",
+     "kind": "text",
+     "params": [],
+     "en": "Directions",
+     "de": "Route"
+    },
+    {
+     "key": "chatLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Chat",
+     "de": "Chat"
+    },
+    {
+     "key": "venuesLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Clubs/Venues",
+     "de": "Clubs/Venues"
+    },
+    {
+     "key": "couldNotShare",
+     "kind": "text",
+     "params": [],
+     "en": "Could not share.",
+     "de": "Teilen hat nicht geklappt."
+    },
+    {
+     "key": "linkCopied",
+     "kind": "text",
+     "params": [],
+     "en": "Link copied.",
+     "de": "Link kopiert."
+    },
+    {
+     "key": "linkLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Link",
+     "de": "Link"
+    },
+    {
+     "key": "discoveryLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Discovery",
+     "de": "Entdecken"
+    },
+    {
+     "key": "doneAdding",
+     "kind": "text",
+     "params": [],
+     "en": "Done adding",
+     "de": "Fertig"
+    },
+    {
+     "key": "everywhere",
+     "kind": "text",
+     "params": [],
+     "en": "Everywhere",
+     "de": "Überall"
+    },
+    {
+     "key": "interestsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Interests",
+     "de": "Interessen"
+    },
+    {
+     "key": "musicLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Music",
+     "de": "Musik"
+    },
+    {
+     "key": "myGenres",
+     "kind": "text",
+     "params": [],
+     "en": "My genres",
+     "de": "Meine Genres"
+    },
+    {
+     "key": "nothingInList",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing in this list yet.",
+     "de": "Noch nichts in dieser Liste."
+    },
+    {
+     "key": "removeWord",
+     "kind": "text",
+     "params": [],
+     "en": "Remove",
+     "de": "Entfernen"
+    },
+    {
+     "key": "savedVenues",
+     "kind": "text",
+     "params": [],
+     "en": "Saved clubs/venues",
+     "de": "Gespeicherte Clubs/Venues"
+    },
+    {
+     "key": "savedWord",
+     "kind": "text",
+     "params": [],
+     "en": "Saved",
+     "de": "Gespeichert"
+    },
+    {
+     "key": "settingsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Settings",
+     "de": "Einstellungen"
+    },
+    {
+     "key": "stepsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Steps",
+     "de": "Schritte"
+    },
+    {
+     "key": "surpriseMe",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise me",
+     "de": "Überrasch mich"
+    },
+    {
+     "key": "surpriseDoorAsk",
+     "kind": "text",
+     "params": [],
+     "en": "Don't know what to do?",
+     "de": "Keine Ahnung, was tun?"
+    },
+    {
+     "key": "surpriseDoorOffer",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise me!",
+     "de": "Überrasch mich!"
+    },
+    {
+     "key": "listEmptyNoLoss",
+     "kind": "text",
+     "params": [],
+     "en": "The list is empty, so nothing goes with it.",
+     "de": "Die Liste ist leer, es geht also nichts verloren."
+    },
+    {
+     "key": "venueRemovedEvent",
+     "kind": "text",
+     "params": [],
+     "en": "The venue has taken this off its programme.",
+     "de": "Das Venue hat das aus seinem Programm genommen."
+    },
+    {
+     "key": "eventLeftProgramme",
+     "kind": "text",
+     "params": [],
+     "en": "This event has left the programme.",
+     "de": "Dieses Event ist nicht mehr im Programm."
+    },
+    {
+     "key": "tunedToTaste",
+     "kind": "text",
+     "params": [],
+     "en": "Set to your taste.",
+     "de": "Auf deinen Geschmack abgestimmt."
+    },
+    {
+     "key": "widgetLook",
+     "kind": "text",
+     "params": [],
+     "en": "Widget look",
+     "de": "Widget-Look"
+    },
+    {
+     "key": "layoutButton",
+     "kind": "text",
+     "params": [],
+     "en": "Button",
+     "de": "Button"
+    },
+    {
+     "key": "layoutStrip",
+     "kind": "text",
+     "params": [],
+     "en": "Strip",
+     "de": "Strip"
+    },
+    {
+     "key": "layoutStackedName",
+     "kind": "text",
+     "params": [],
+     "en": "Stacked",
+     "de": "Gestapelt"
+    },
+    {
+     "key": "filterLayout.button.label",
+     "kind": "text",
+     "params": [],
+     "en": "Compact",
+     "de": "Kompakt"
+    },
+    {
+     "key": "filterLayout.button.hint",
+     "kind": "text",
+     "params": [],
+     "en": "One Filters button keeps the feed clear",
+     "de": "Ein Filter-Button hält den Feed frei"
+    },
+    {
+     "key": "filterLayout.strip.label",
+     "kind": "text",
+     "params": [],
+     "en": "Scrollable row",
+     "de": "Scrollbare Zeile"
+    },
+    {
+     "key": "filterLayout.strip.hint",
+     "kind": "text",
+     "params": [],
+     "en": "A row of filter buttons, one swipe away",
+     "de": "Eine Zeile Filter-Buttons, einen Wisch entfernt"
+    },
+    {
+     "key": "filterLayout.stacked.label",
+     "kind": "text",
+     "params": [],
+     "en": "Expanded",
+     "de": "Ausgeklappt"
+    },
+    {
+     "key": "filterLayout.stacked.hint",
+     "kind": "text",
+     "params": [],
+     "en": "Every filter stays visible",
+     "de": "Alle Filter bleiben sichtbar"
+    },
+    {
+     "key": "appearance.auto",
+     "kind": "text",
+     "params": [],
+     "en": "Auto",
+     "de": "Auto"
+    },
+    {
+     "key": "appearance.dark",
+     "kind": "text",
+     "params": [],
+     "en": "Dark",
+     "de": "Dunkel"
+    },
+    {
+     "key": "appearance.light",
+     "kind": "text",
+     "params": [],
+     "en": "Light",
+     "de": "Hell"
+    },
+    {
+     "key": "surpriseMeGlyph",
+     "kind": "text",
+     "params": [],
+     "en": "✦ Surprise me",
+     "de": "✦ Überrasch mich"
+    },
+    {
+     "key": "matchMyInterests",
+     "kind": "text",
+     "params": [],
+     "en": "Match my interests",
+     "de": "Zu meinen Interessen passen"
+    },
+    {
+     "key": "everythingOn",
+     "kind": "text",
+     "params": [],
+     "en": "everything on",
+     "de": "alles an"
+    },
+    {
+     "key": "notPersonalizedYet",
+     "kind": "text",
+     "params": [],
+     "en": "not personalized yet",
+     "de": "noch nicht personalisiert"
+    },
+    {
+     "key": "nSwitchedOff",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} switched off",
+     "de": "{n} ausgeschaltet"
+    },
+    {
+     "key": "browseAllVenues",
+     "kind": "text",
+     "params": [],
+     "en": "Browse all clubs/venues →",
+     "de": "Alle Clubs/Venues durchstöbern →"
+    },
+    {
+     "key": "savesTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Saved lists",
+     "de": "Meine Listen"
+    },
+    {
+     "key": "savesIntro",
+     "kind": "text",
+     "params": [],
+     "en": "Find all saved events, artists and venues here. Events leave a list once they have taken place.",
+     "de": "Finde hier alle gespeicherten Events, Artists und Venues. Events verschwinden aus einer Liste, sobald sie vorbei sind."
+    },
+    {
+     "key": "shelfPlanBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "The events you have saved for later.",
+     "de": "Die Events, die du dir für später gespeichert hast."
+    },
+    {
+     "key": "shelfSurpriseBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise picks from the cards.",
+     "de": "Überraschungsfunde aus den Karten."
+    },
+    {
+     "key": "shelfArtistsBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "Artists you follow and their upcoming events.",
+     "de": "Artists, denen du folgst, und ihre kommenden Events."
+    },
+    {
+     "key": "shelfPlacesBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "Places you like and what is happening there.",
+     "de": "Orte, die du magst, und was dort läuft."
+    },
+    {
+     "key": "shelfListBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "Your own collection of saved events.",
+     "de": "Deine eigene Sammlung gespeicherter Events."
+    },
+    {
+     "key": "latestSaves",
+     "kind": "text",
+     "params": [],
+     "en": "Latest saves",
+     "de": "Zuletzt gespeichert"
+    },
+    {
+     "key": "similarEvents",
+     "kind": "text",
+     "params": [],
+     "en": "Similar events",
+     "de": "Ähnliche Events"
+    },
+    {
+     "key": "saveChooserTitle",
+     "kind": "text",
+     "params": [],
+     "en": "Save to…",
+     "de": "Speichern in …"
+    },
+    {
+     "key": "publishGrid",
+     "kind": "text",
+     "params": [],
+     "en": "Make a widget wall",
+     "de": "Eine Widget-Wall machen"
+    },
+    {
+     "key": "publishGridOpen",
+     "kind": "text",
+     "params": [],
+     "en": "Open widget wall",
+     "de": "Widget-Wall öffnen"
+    },
+    {
+     "key": "publishGridWorking",
+     "kind": "text",
+     "params": [],
+     "en": "Making your widget wall…",
+     "de": "Deine Widget-Wall entsteht …"
+    },
+    {
+     "key": "publishGridHint",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {tile} other {tiles}} on a new widget wall.",
+     "de": "{n} {n, plural, one {Kachel} other {Kacheln}} auf einer neuen Widget-Wall."
+    },
+    {
+     "key": "publishGridLiveHint",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {tile} other {tiles}}. Your widget wall follows this list.",
+     "de": "{n} {n, plural, one {Kachel} other {Kacheln}}. Deine Widget-Wall folgt dieser Liste."
+    },
+    {
+     "key": "publishGridDone",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "“{name}” is a widget wall now.",
+     "de": "«{name}» ist jetzt eine eigene Widget-Wall."
+    },
+    {
+     "key": "publishGridFailed",
+     "kind": "text",
+     "params": [],
+     "en": "Could not make the widget wall. This works from the Ari app.",
+     "de": "Die Widget-Wall konnte nicht erstellt werden. Das geht in der Ari-App."
+    },
+    {
+     "key": "doneWord",
+     "kind": "text",
+     "params": [],
+     "en": "Done",
+     "de": "Fertig"
+    },
+    {
+     "key": "latestSavesEmpty",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing saved yet. A heart on any event puts it here.",
+     "de": "Noch nichts gespeichert. Ein Herz auf einem Event legt es hier ab."
+    },
+    {
+     "key": "planListName",
+     "kind": "text",
+     "params": [],
+     "en": "Events",
+     "de": "Events"
+    },
+    {
+     "key": "newListTitle",
+     "kind": "text",
+     "params": [],
+     "en": "New list",
+     "de": "Neue Liste"
+    },
+    {
+     "key": "newListBlurb",
+     "kind": "text",
+     "params": [],
+     "en": "Create your own list.",
+     "de": "Erstell deine eigene Liste."
+    },
+    {
+     "key": "openShelf",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Open {name}",
+     "de": "{name} öffnen"
+    },
+    {
+     "key": "listPageEvents",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {event} other {events}}",
+     "de": "{n} {n, plural, one {Event} other {Events}}"
+    },
+    {
+     "key": "listPageComingUp",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} coming up",
+     "de": "{n} demnächst"
+    },
+    {
+     "key": "keepValue",
+     "kind": "text",
+     "params": [],
+     "en": "Save event",
+     "de": "Event speichern"
+    },
+    {
+     "key": "keepValueSaved",
+     "kind": "text",
+     "params": [],
+     "en": "Saved to",
+     "de": "Gespeichert in"
+    },
+    {
+     "key": "keepHint",
+     "kind": "text",
+     "params": [],
+     "en": "A few saves make a wall of their own.",
+     "de": "Ein paar Saves ergeben eine eigene Wall."
+    },
+    {
+     "key": "keepHintSaved",
+     "kind": "text",
+     "params": [],
+     "en": "A few more make a wall of their own.",
+     "de": "Ein paar mehr ergeben eine eigene Wall."
+    },
+    {
+     "key": "openListLink",
+     "kind": "text",
+     "params": [],
+     "en": "Open list →",
+     "de": "Liste öffnen →"
+    },
+    {
+     "key": "publishValue",
+     "kind": "text",
+     "params": [],
+     "en": "Add to wall",
+     "de": "Zur Wall hinzufügen"
+    },
+    {
+     "key": "publishHint",
+     "kind": "text",
+     "params": [],
+     "en": "A tile of its own: countdown, timetable, tickets.",
+     "de": "Eine eigene Kachel: Countdown, Zeitplan, Tickets."
+    },
+    {
+     "key": "publishHintPlaced",
+     "kind": "text",
+     "params": [],
+     "en": "Already on this wall.",
+     "de": "Schon auf dieser Wall."
+    },
+    {
+     "key": "publishHintNoWall",
+     "kind": "text",
+     "params": [],
+     "en": "Works from your wall in the Ari app.",
+     "de": "Geht von deiner Wall in der Ari-App aus."
+    },
+    {
+     "key": "artistsPageLede",
+     "kind": "text",
+     "params": [],
+     "en": "Artists you follow and their upcoming events, soonest first.",
+     "de": "Artists, denen du folgst, und ihre kommenden Events, die nächsten zuerst."
+    },
+    {
+     "key": "placesPageLede",
+     "kind": "text",
+     "params": [],
+     "en": "Places you like and what is happening there, soonest first.",
+     "de": "Orte, die du magst, und was dort läuft, die nächsten zuerst."
+    },
+    {
+     "key": "unfollowWord",
+     "kind": "text",
+     "params": [],
+     "en": "Unfollow",
+     "de": "Entfolgen"
+    },
+    {
+     "key": "savePlace",
+     "kind": "text",
+     "params": [],
+     "en": "Save place",
+     "de": "Ort speichern"
+    },
+    {
+     "key": "savedPlace",
+     "kind": "text",
+     "params": [],
+     "en": "Saved place",
+     "de": "Ort gespeichert"
+    },
+    {
+     "key": "onNowWord",
+     "kind": "text",
+     "params": [],
+     "en": "now",
+     "de": "jetzt"
+    },
+    {
+     "key": "onNowCap",
+     "kind": "text",
+     "params": [],
+     "en": "Now",
+     "de": "Jetzt"
+    },
+    {
+     "key": "untilWord",
+     "kind": "text",
+     "params": [],
+     "en": "until",
+     "de": "bis"
+    },
+    {
+     "key": "priceVaries",
+     "kind": "text",
+     "params": [],
+     "en": "Price varies",
+     "de": "Preis variiert"
+    },
+    {
+     "key": "viewOn",
+     "kind": "text",
+     "params": [],
+     "en": "On",
+     "de": "An"
+    },
+    {
+     "key": "layoutList",
+     "kind": "text",
+     "params": [],
+     "en": "List",
+     "de": "Liste"
+    },
+    {
+     "key": "layoutCards",
+     "kind": "text",
+     "params": [],
+     "en": "Cards",
+     "de": "Karten"
+    },
+    {
+     "key": "settingsSectionFilters",
+     "kind": "text",
+     "params": [],
+     "en": "Filters",
+     "de": "Filter"
+    },
+    {
+     "key": "settingsSectionMusic",
+     "kind": "text",
+     "params": [],
+     "en": "Music",
+     "de": "Musik"
+    },
+    {
+     "key": "settingsSectionArtists",
+     "kind": "text",
+     "params": [],
+     "en": "Artists",
+     "de": "Artists"
+    },
+    {
+     "key": "settingsSectionVenues",
+     "kind": "text",
+     "params": [],
+     "en": "Clubs & Venues",
+     "de": "Clubs & Venues"
+    },
+    {
+     "key": "settingsSectionBackground",
+     "kind": "text",
+     "params": [],
+     "en": "Background",
+     "de": "Hintergrund"
+    },
+    {
+     "key": "backgroundHint",
+     "kind": "text",
+     "params": [],
+     "en": "A photo of your own, one from Moments, or an artwork from the programme: it fades into the widget and the tile from the corner you choose.",
+     "de": "Ein eigenes Foto, eins aus Moments oder ein Artwork aus dem Programm: es blendet im Widget und in der Kachel von der gewählten Ecke her ein."
+    },
+    {
+     "key": "backgroundAddOrChoose",
+     "kind": "text",
+     "params": [],
+     "en": "Add or choose an image",
+     "de": "Bild hinzufügen oder wählen"
+    },
+    {
+     "key": "backgroundSwitch",
+     "kind": "text",
+     "params": [],
+     "en": "Artwork behind the widget",
+     "de": "Bild hinter dem Widget"
+    },
+    {
+     "key": "backgroundOffNote",
+     "kind": "text",
+     "params": [],
+     "en": "No picture behind your events. Your picks are kept for when you switch it back on.",
+     "de": "Kein Bild hinter deinen Events. Deine Auswahl bleibt für später gespeichert."
+    },
+    {
+     "key": "backgroundFoldSay",
+     "kind": "text",
+     "params": [],
+     "en": "That looks like you. I like it behind your events.",
+     "de": "Das sieht nach dir aus. Gefällt mir hinter deinen Events."
+    },
+    {
+     "key": "backgroundFoldSayEmpty",
+     "kind": "text",
+     "params": [],
+     "en": "No picture is a look too. Come back whenever one fits.",
+     "de": "Kein Bild ist auch ein Look. Komm wieder, wenn eins passt."
+    },
+    {
+     "key": "backgroundFoldDone",
+     "kind": "text",
+     "params": [],
+     "en": "Happy with it",
+     "de": "Passt so"
+    },
+    {
+     "key": "backgroundFoldLater",
+     "kind": "text",
+     "params": [],
+     "en": "Maybe later",
+     "de": "Vielleicht später"
+    },
+    {
+     "key": "editWord",
+     "kind": "text",
+     "params": [],
+     "en": "Edit",
+     "de": "Bearbeiten"
+    },
+    {
+     "key": "backgroundOwnLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Your photo",
+     "de": "Dein Foto"
+    },
+    {
+     "key": "backgroundUpload",
+     "kind": "text",
+     "params": [],
+     "en": "Upload from your phone",
+     "de": "Vom Handy hochladen"
+    },
+    {
+     "key": "backgroundUploadAgain",
+     "kind": "text",
+     "params": [],
+     "en": "Upload another",
+     "de": "Noch eins hochladen"
+    },
+    {
+     "key": "backgroundUploadFailed",
+     "kind": "text",
+     "params": [],
+     "en": "That photo could not be read.",
+     "de": "Das Foto konnte nicht gelesen werden."
+    },
+    {
+     "key": "backgroundMomentsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "From Moments",
+     "de": "Aus Moments"
+    },
+    {
+     "key": "backgroundPhotosLabel",
+     "kind": "text",
+     "params": [],
+     "en": "From the programme and Moments",
+     "de": "Aus dem Programm und Moments"
+    },
+    {
+     "key": "backgroundMomentsOwnHint",
+     "kind": "text",
+     "params": [],
+     "en": "After the programme: your captures, then the Moments gallery.",
+     "de": "Nach dem Programm: deine Aufnahmen, dann die Moments-Galerie."
+    },
+    {
+     "key": "backgroundProgrammeLabel",
+     "kind": "text",
+     "params": [],
+     "en": "From the programme",
+     "de": "Aus dem Programm"
+    },
+    {
+     "key": "backgroundPosition",
+     "kind": "text",
+     "params": [],
+     "en": "Position",
+     "de": "Platzierung"
+    },
+    {
+     "key": "backgroundFrame",
+     "kind": "text",
+     "params": [],
+     "en": "Framing",
+     "de": "Ausschnitt"
+    },
+    {
+     "key": "backgroundFrameHint",
+     "kind": "text",
+     "params": [],
+     "en": "Drag to move · pinch or slide to zoom",
+     "de": "Ziehen zum Verschieben · Zoomen mit zwei Fingern oder Regler"
+    },
+    {
+     "key": "backgroundZoom",
+     "kind": "text",
+     "params": [],
+     "en": "Zoom",
+     "de": "Zoomstufe"
+    },
+    {
+     "key": "backgroundFrameReset",
+     "kind": "text",
+     "params": [],
+     "en": "Reset framing",
+     "de": "Ausschnitt zurücksetzen"
+    },
+    {
+     "key": "shortcutPin",
+     "kind": "text",
+     "params": [],
+     "en": "Show in shortcut row",
+     "de": "In der Shortcut-Leiste anzeigen"
+    },
+    {
+     "key": "backgroundTint",
+     "kind": "text",
+     "params": [],
+     "en": "Tint",
+     "de": "Tönung"
+    },
+    {
+     "key": "backgroundPlace.top-right",
+     "kind": "text",
+     "params": [],
+     "en": "Top right",
+     "de": "Oben rechts"
+    },
+    {
+     "key": "backgroundPlace.top-left",
+     "kind": "text",
+     "params": [],
+     "en": "Top left",
+     "de": "Oben links"
+    },
+    {
+     "key": "backgroundPlace.bottom-right",
+     "kind": "text",
+     "params": [],
+     "en": "Bottom right",
+     "de": "Unten rechts"
+    },
+    {
+     "key": "backgroundPlace.bottom-left",
+     "kind": "text",
+     "params": [],
+     "en": "Bottom left",
+     "de": "Unten links"
+    },
+    {
+     "key": "backgroundPlace.full",
+     "kind": "text",
+     "params": [],
+     "en": "Full",
+     "de": "Ganze Fläche"
+    },
+    {
+     "key": "navRow",
+     "kind": "text",
+     "params": [],
+     "en": "The row",
+     "de": "Die Leiste"
+    },
+    {
+     "key": "navItems",
+     "kind": "text",
+     "params": [],
+     "en": "Items and order",
+     "de": "Elemente und Reihenfolge"
+    },
+    {
+     "key": "navMoveUp",
+     "kind": "text",
+     "params": [],
+     "en": "Move up",
+     "de": "Nach oben"
+    },
+    {
+     "key": "navMoveDown",
+     "kind": "text",
+     "params": [],
+     "en": "Move down",
+     "de": "Nach unten"
+    },
+    {
+     "key": "navReset",
+     "kind": "text",
+     "params": [],
+     "en": "Back to the widget’s own row",
+     "de": "Zurück zur Leiste des Widgets"
+    },
+    {
+     "key": "facetComposerLede",
+     "kind": "text",
+     "params": [],
+     "en": "Which filters the fold offers, and in what order. A filter that is off hides its control and stops narrowing the list.",
+     "de": "Welche Filter die Leiste anbietet, und in welcher Reihenfolge. Ein Filter, der aus ist, blendet sein Element aus und schränkt die Liste nicht mehr ein."
+    },
+    {
+     "key": "renameLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Name",
+     "de": "Widget-Name"
+    },
+    {
+     "key": "renameReset",
+     "kind": "text",
+     "params": [],
+     "en": "Back to the widget’s own name",
+     "de": "Zurück zum Namen des Widgets"
+    },
+    {
+     "key": "roomRadius",
+     "kind": "text",
+     "params": [],
+     "en": "Corners",
+     "de": "Ecken"
+    },
+    {
+     "key": "roomRadii.xs",
+     "kind": "text",
+     "params": [],
+     "en": "Sharp",
+     "de": "Scharf"
+    },
+    {
+     "key": "roomRadii.sm",
+     "kind": "text",
+     "params": [],
+     "en": "Soft",
+     "de": "Weich"
+    },
+    {
+     "key": "roomRadii.md",
+     "kind": "text",
+     "params": [],
+     "en": "Round",
+     "de": "Gerundet"
+    },
+    {
+     "key": "roomRadii.lg",
+     "kind": "text",
+     "params": [],
+     "en": "Rounder",
+     "de": "Runder"
+    },
+    {
+     "key": "roomRadii.xl",
+     "kind": "text",
+     "params": [],
+     "en": "Pill",
+     "de": "Pille"
+    },
+    {
+     "key": "feedShapeLabel",
+     "kind": "text",
+     "params": [],
+     "en": "The feed",
+     "de": "Der Feed"
+    },
+    {
+     "key": "sectionsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Sections",
+     "de": "Abschnitte"
+    },
+    {
+     "key": "sectionNames.now",
+     "kind": "text",
+     "params": [],
+     "en": "Now playing",
+     "de": "Läuft gerade"
+    },
+    {
+     "key": "sectionNames.later",
+     "kind": "text",
+     "params": [],
+     "en": "Starting later",
+     "de": "Beginnt später"
+    },
+    {
+     "key": "sectionNames.days",
+     "kind": "text",
+     "params": [],
+     "en": "The days",
+     "de": "Die Tage"
+    },
+    {
+     "key": "sectionNames.weekend",
+     "kind": "text",
+     "params": [],
+     "en": "Next weekend",
+     "de": "Nächstes Wochenende"
+    },
+    {
+     "key": "sectionViewCards",
+     "kind": "text",
+     "params": [],
+     "en": "Cards",
+     "de": "Karten"
+    },
+    {
+     "key": "sectionViewList",
+     "kind": "text",
+     "params": [],
+     "en": "List",
+     "de": "Liste"
+    },
+    {
+     "key": "rowFactsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Row facts",
+     "de": "Zeilenangaben"
+    },
+    {
+     "key": "autoTune",
+     "kind": "text",
+     "params": [],
+     "en": "Surprise mix",
+     "de": "Zufallsmix"
+    },
+    {
+     "key": "sortPopular",
+     "kind": "text",
+     "params": [],
+     "en": "Popular",
+     "de": "Beliebt"
+    },
+    {
+     "key": "sortCheapest",
+     "kind": "text",
+     "params": [],
+     "en": "Cheapest",
+     "de": "Günstigste"
+    },
+    {
+     "key": "popularFirst",
+     "kind": "text",
+     "params": [],
+     "en": "Popular first",
+     "de": "Beliebte zuerst"
+    },
+    {
+     "key": "cheapestFirst",
+     "kind": "text",
+     "params": [],
+     "en": "Cheapest first",
+     "de": "Günstigste zuerst"
+    },
+    {
+     "key": "liveLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Live",
+     "de": "Live-Anzeige"
+    },
+    {
+     "key": "liveRing",
+     "kind": "text",
+     "params": [],
+     "en": "Ring on running events",
+     "de": "Ring bei laufenden Events"
+    },
+    {
+     "key": "livePulse",
+     "kind": "text",
+     "params": [],
+     "en": "Pulse with the beat",
+     "de": "Puls im Takt"
+    },
+    {
+     "key": "liveNeon",
+     "kind": "text",
+     "params": [],
+     "en": "Neon chrome",
+     "de": "Neon-Chrom"
+    },
+    {
+     "key": "onWord",
+     "kind": "text",
+     "params": [],
+     "en": "On",
+     "de": "An"
+    },
+    {
+     "key": "offWord",
+     "kind": "text",
+     "params": [],
+     "en": "Off",
+     "de": "Aus"
+    },
+    {
+     "key": "artworkLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Artwork",
+     "de": "Bilder"
+    },
+    {
+     "key": "artworkOptions.natural",
+     "kind": "text",
+     "params": [],
+     "en": "Natural",
+     "de": "Natürlich"
+    },
+    {
+     "key": "artworkOptions.saturated",
+     "kind": "text",
+     "params": [],
+     "en": "Saturated",
+     "de": "Gesättigt"
+    },
+    {
+     "key": "artworkOptions.grayscale",
+     "kind": "text",
+     "params": [],
+     "en": "Black and white",
+     "de": "Schwarzweiss"
+    },
+    {
+     "key": "tileContentHeading",
+     "kind": "text",
+     "params": [],
+     "en": "On the tile",
+     "de": "Auf der Kachel"
+    },
+    {
+     "key": "tileFactsLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Facts",
+     "de": "Angaben"
+    },
+    {
+     "key": "tileFactsOptions.eta-price-countdown",
+     "kind": "text",
+     "params": [],
+     "en": "Distance and price",
+     "de": "Distanz und Preis"
+    },
+    {
+     "key": "tileFactsOptions.price-countdown",
+     "kind": "text",
+     "params": [],
+     "en": "Price",
+     "de": "Preis"
+    },
+    {
+     "key": "tileFactsOptions.eta-only",
+     "kind": "text",
+     "params": [],
+     "en": "Distance",
+     "de": "Distanz"
+    },
+    {
+     "key": "tileFactsOptions.none",
+     "kind": "text",
+     "params": [],
+     "en": "None",
+     "de": "Keine"
+    },
+    {
+     "key": "tileCtaLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Button",
+     "de": "Button"
+    },
+    {
+     "key": "tileCtaOptions.tickets",
+     "kind": "text",
+     "params": [],
+     "en": "Tickets",
+     "de": "Tickets"
+    },
+    {
+     "key": "tileCtaOptions.directions",
+     "kind": "text",
+     "params": [],
+     "en": "Directions",
+     "de": "Route"
+    },
+    {
+     "key": "tileCtaOptions.none",
+     "kind": "text",
+     "params": [],
+     "en": "None",
+     "de": "Keiner"
+    },
+    {
+     "key": "factNames.saved",
+     "kind": "text",
+     "params": [],
+     "en": "Saved heart",
+     "de": "Herz"
+    },
+    {
+     "key": "factNames.status",
+     "kind": "text",
+     "params": [],
+     "en": "Status",
+     "de": "Stand"
+    },
+    {
+     "key": "factNames.distance",
+     "kind": "text",
+     "params": [],
+     "en": "Distance",
+     "de": "Distanz"
+    },
+    {
+     "key": "factNames.eta",
+     "kind": "text",
+     "params": [],
+     "en": "Countdown",
+     "de": "Restzeit"
+    },
+    {
+     "key": "factNames.price",
+     "kind": "text",
+     "params": [],
+     "en": "Price",
+     "de": "Preis"
+    },
+    {
+     "key": "backToFeed",
+     "kind": "text",
+     "params": [],
+     "en": "Back to What's On",
+     "de": "Zurück zu What's On"
+    },
+    {
+     "key": "thisWeekend",
+     "kind": "text",
+     "params": [],
+     "en": "This weekend",
+     "de": "Dieses Wochenende"
+    },
+    {
+     "key": "nextWeekend",
+     "kind": "text",
+     "params": [],
+     "en": "Next weekend",
+     "de": "Nächstes Wochenende"
+    },
+    {
+     "key": "nowPlaying",
+     "kind": "text",
+     "params": [],
+     "en": "Now playing",
+     "de": "Läuft gerade"
+    },
+    {
+     "key": "openingLater",
+     "kind": "text",
+     "params": [],
+     "en": "Starting later",
+     "de": "Startet später"
+    },
+    {
+     "key": "outsideYourUsual",
+     "kind": "text",
+     "params": [],
+     "en": "Outside your usual",
+     "de": "Ausserhalb deines Üblichen"
+    },
+    {
+     "key": "noListingsYet",
+     "kind": "text",
+     "params": [],
+     "en": "No listings yet, new events land here as they are announced.",
+     "de": "Noch keine Einträge, neue Events landen hier, sobald sie angekündigt sind."
+    },
+    {
+     "key": "pickADay",
+     "kind": "text",
+     "params": [],
+     "en": "Pick a day",
+     "de": "Wähl einen Tag"
+    },
+    {
+     "key": "pickDayOrRange",
+     "kind": "text",
+     "params": [],
+     "en": "Pick a day or a range",
+     "de": "Wähl einen Tag oder einen Zeitraum"
+    },
+    {
+     "key": "nEvents",
+     "kind": "code",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "key": "someRunningNow",
+     "kind": "text",
+     "params": [],
+     "en": "some running now",
+     "de": "einige laufen gerade"
+    },
+    {
+     "key": "alreadyPast",
+     "kind": "text",
+     "params": [],
+     "en": "already past",
+     "de": "schon vorbei"
+    }
+   ]
+  },
+  {
+   "id": "widgets/zurich-galleries/strings",
+   "file": "packages/widget-runtime/src/widgets/zurich-galleries/strings.ts",
+   "context": "",
+   "keys": [
+    {
+     "key": "title",
+     "kind": "text",
+     "params": [],
+     "en": "Galleries",
+     "de": "Galerien"
+    },
+    {
+     "key": "close",
+     "kind": "text",
+     "params": [],
+     "en": "Close",
+     "de": "Schliessen"
+    },
+    {
+     "key": "lede",
+     "kind": "text",
+     "params": [],
+     "en": "Die Zürcher Galerien",
+     "de": "Die Zürcher Galerien"
+    },
+    {
+     "key": "galleriesCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {gallery} other {galleries}}",
+     "de": "{n} {n, plural, one {Galerie} other {Galerien}}"
+    },
+    {
+     "key": "openNowCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} open now",
+     "de": "{n} jetzt offen"
+    },
+    {
+     "key": "openingsTodayCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {opening} other {openings}} today",
+     "de": "{n} {n, plural, one {Vernissage} other {Vernissagen}} heute"
+    },
+    {
+     "key": "openingsWeekCount",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} {n, plural, one {opening} other {openings}} this week",
+     "de": "{n} {n, plural, one {Vernissage} other {Vernissagen}} diese Woche"
+    },
+    {
+     "key": "headlineOpenNow",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} |open now|",
+     "de": "{n} |jetzt offen|"
+    },
+    {
+     "key": "headlineOpeningsToday",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} |{n, plural, one {opening} other {openings}} today|",
+     "de": "{n} |{n, plural, one {Vernissage} other {Vernissagen}} heute|"
+    },
+    {
+     "key": "headlineOpeningsWeek",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} |{n, plural, one {opening} other {openings}} this week|",
+     "de": "{n} |{n, plural, one {Vernissage} other {Vernissagen}} diese Woche|"
+    },
+    {
+     "key": "headlineGalleries",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n} |galleries|",
+     "de": "{n} |Galerien|"
+    },
+    {
+     "key": "capOpenNow",
+     "kind": "text",
+     "params": [],
+     "en": "open now",
+     "de": "jetzt offen"
+    },
+    {
+     "key": "capSmallOpen",
+     "kind": "text",
+     "params": [],
+     "en": "open",
+     "de": "offen"
+    },
+    {
+     "key": "capOpeningsToday",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n, plural, one {opening today} other {openings today}}",
+     "de": "{n, plural, one {Vernissage heute} other {Vernissagen heute}}"
+    },
+    {
+     "key": "capOpeningsWeek",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "{n, plural, one {opening this week} other {openings this week}}",
+     "de": "{n, plural, one {Vernissage diese Woche} other {Vernissagen diese Woche}}"
+    },
+    {
+     "key": "capGalleries",
+     "kind": "text",
+     "params": [],
+     "en": "galleries",
+     "de": "Galerien"
+    },
+    {
+     "key": "zones.rdl",
+     "kind": "text",
+     "params": [],
+     "en": "City, right bank",
+     "de": "Innenstadt rechts der Limmat"
+    },
+    {
+     "key": "zones.ldl",
+     "kind": "text",
+     "params": [],
+     "en": "City, left bank",
+     "de": "Innenstadt links der Limmat"
+    },
+    {
+     "key": "zones.aussersihl",
+     "kind": "text",
+     "params": [],
+     "en": "Zürich Aussersihl",
+     "de": "Zürich Aussersihl"
+    },
+    {
+     "key": "zones.loewenbraeu",
+     "kind": "text",
+     "params": [],
+     "en": "Löwenbräu area and surroundings",
+     "de": "Löwenbräuareal und Umgebung"
+    },
+    {
+     "key": "zones.ktzh",
+     "kind": "text",
+     "params": [],
+     "en": "Canton of Zürich",
+     "de": "Kanton Zürich"
+    },
+    {
+     "key": "zonesShort.rdl",
+     "kind": "text",
+     "params": [],
+     "en": "Rämistrasse",
+     "de": "Rämistrasse"
+    },
+    {
+     "key": "zonesShort.ldl",
+     "kind": "text",
+     "params": [],
+     "en": "Bahnhofstrasse",
+     "de": "Bahnhofstrasse"
+    },
+    {
+     "key": "zonesShort.aussersihl",
+     "kind": "text",
+     "params": [],
+     "en": "Aussersihl",
+     "de": "Aussersihl"
+    },
+    {
+     "key": "zonesShort.loewenbraeu",
+     "kind": "text",
+     "params": [],
+     "en": "Löwenbräu",
+     "de": "Löwenbräu"
+    },
+    {
+     "key": "zonesShort.ktzh",
+     "kind": "text",
+     "params": [],
+     "en": "Outside",
+     "de": "Ausserhalb"
+    },
+    {
+     "key": "weekdays.d0",
+     "kind": "text",
+     "params": [],
+     "en": "Sun",
+     "de": "So"
+    },
+    {
+     "key": "weekdays.d1",
+     "kind": "text",
+     "params": [],
+     "en": "Mon",
+     "de": "Mo"
+    },
+    {
+     "key": "weekdays.d2",
+     "kind": "text",
+     "params": [],
+     "en": "Tue",
+     "de": "Di"
+    },
+    {
+     "key": "weekdays.d3",
+     "kind": "text",
+     "params": [],
+     "en": "Wed",
+     "de": "Mi"
+    },
+    {
+     "key": "weekdays.d4",
+     "kind": "text",
+     "params": [],
+     "en": "Thu",
+     "de": "Do"
+    },
+    {
+     "key": "weekdays.d5",
+     "kind": "text",
+     "params": [],
+     "en": "Fri",
+     "de": "Fr"
+    },
+    {
+     "key": "weekdays.d6",
+     "kind": "text",
+     "params": [],
+     "en": "Sat",
+     "de": "Sa"
+    },
+    {
+     "key": "openUntil",
+     "kind": "template",
+     "params": [
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "Open until {t}",
+     "de": "Offen bis {t}"
+    },
+    {
+     "key": "opensAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "Opens {t}",
+     "de": "Öffnet {t}"
+    },
+    {
+     "key": "closedUntil",
+     "kind": "template",
+     "params": [
+      {
+       "name": "day",
+       "type": "string"
+      },
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "Closed, opens {day} {t}",
+     "de": "Geschlossen, öffnet {day} {t}"
+    },
+    {
+     "key": "closed",
+     "kind": "text",
+     "params": [],
+     "en": "Closed",
+     "de": "Geschlossen"
+    },
+    {
+     "key": "hoursAsWritten",
+     "kind": "text",
+     "params": [],
+     "en": "Hours as on dzg.ch",
+     "de": "Zeiten wie auf dzg.ch"
+    },
+    {
+     "key": "byAppointment",
+     "kind": "text",
+     "params": [],
+     "en": "By appointment",
+     "de": "Nach Vereinbarung"
+    },
+    {
+     "key": "openNowChip",
+     "kind": "text",
+     "params": [],
+     "en": "Open now",
+     "de": "Jetzt offen"
+    },
+    {
+     "key": "allZones",
+     "kind": "text",
+     "params": [],
+     "en": "All zones",
+     "de": "Alle Zonen"
+    },
+    {
+     "key": "filterGalleries",
+     "kind": "text",
+     "params": [],
+     "en": "Filter galleries",
+     "de": "Galerien filtern"
+    },
+    {
+     "key": "filterProgramme",
+     "kind": "text",
+     "params": [],
+     "en": "Filter programme",
+     "de": "Programm filtern"
+    },
+    {
+     "key": "today",
+     "kind": "text",
+     "params": [],
+     "en": "Today",
+     "de": "Heute"
+    },
+    {
+     "key": "thisWeek",
+     "kind": "text",
+     "params": [],
+     "en": "This week",
+     "de": "Diese Woche"
+    },
+    {
+     "key": "allDates",
+     "kind": "text",
+     "params": [],
+     "en": "Coming up",
+     "de": "Demnächst"
+    },
+    {
+     "key": "saved",
+     "kind": "text",
+     "params": [],
+     "en": "Saved",
+     "de": "Gemerkt"
+    },
+    {
+     "key": "save",
+     "kind": "text",
+     "params": [],
+     "en": "Save",
+     "de": "Merken"
+    },
+    {
+     "key": "savedLabel",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Saved: {name}",
+     "de": "Gemerkt: {name}"
+    },
+    {
+     "key": "saveLabel",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Save {name}",
+     "de": "{name} merken"
+    },
+    {
+     "key": "noneOpenNow",
+     "kind": "text",
+     "params": [],
+     "en": "No gallery open right now",
+     "de": "Gerade ist keine Galerie offen"
+    },
+    {
+     "key": "noneInZone",
+     "kind": "text",
+     "params": [],
+     "en": "No gallery in this zone matches",
+     "de": "Keine Galerie in dieser Zone passt"
+    },
+    {
+     "key": "programme",
+     "kind": "text",
+     "params": [],
+     "en": "Programme",
+     "de": "Programm"
+    },
+    {
+     "key": "opening",
+     "kind": "text",
+     "params": [],
+     "en": "Opening",
+     "de": "Vernissage"
+    },
+    {
+     "key": "starts",
+     "kind": "text",
+     "params": [],
+     "en": "Starts",
+     "de": "Beginn"
+    },
+    {
+     "key": "openingTimeNoDay",
+     "kind": "template",
+     "params": [
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "Opening {t}, day not given on dzg.ch",
+     "de": "Vernissage {t}, Tag nicht auf dzg.ch"
+    },
+    {
+     "key": "noProgramme",
+     "kind": "text",
+     "params": [],
+     "en": "No openings or new shows announced",
+     "de": "Keine Vernissagen oder neuen Ausstellungen angekündigt"
+    },
+    {
+     "key": "nothingToday",
+     "kind": "text",
+     "params": [],
+     "en": "No opening or new show today",
+     "de": "Heute keine Vernissage und kein Ausstellungsstart"
+    },
+    {
+     "key": "nothingThisWeek",
+     "kind": "text",
+     "params": [],
+     "en": "No opening or new show this week",
+     "de": "Diese Woche keine Vernissage und kein Ausstellungsstart"
+    },
+    {
+     "key": "nextDate",
+     "kind": "template",
+     "params": [
+      {
+       "name": "day",
+       "type": "string"
+      },
+      {
+       "name": "names",
+       "type": "string"
+      }
+     ],
+     "en": "Next, {day}: {names}",
+     "de": "Als Nächstes am {day}: {names}"
+    },
+    {
+     "key": "nameList",
+     "kind": "code",
+     "params": [
+      {
+       "name": "names",
+       "type": "readonly string[]"
+      }
+     ]
+    },
+    {
+     "key": "opensNext",
+     "kind": "text",
+     "params": [],
+     "en": "Opening next",
+     "de": "Öffnet als nächstes"
+    },
+    {
+     "key": "todayAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "Today {t}",
+     "de": "Heute {t}"
+    },
+    {
+     "key": "dayAt",
+     "kind": "template",
+     "params": [
+      {
+       "name": "day",
+       "type": "string"
+      },
+      {
+       "name": "t",
+       "type": "string"
+      }
+     ],
+     "en": "{day} {t}",
+     "de": "{day} {t}"
+    },
+    {
+     "key": "noExhibition",
+     "kind": "text",
+     "params": [],
+     "en": "No exhibition on dzg.ch",
+     "de": "Keine Ausstellung auf dzg.ch"
+    },
+    {
+     "key": "openGallery",
+     "kind": "text",
+     "params": [],
+     "en": "Open",
+     "de": "Öffnen"
+    },
+    {
+     "key": "galleryWebsite",
+     "kind": "text",
+     "params": [],
+     "en": "Gallery website",
+     "de": "Website der Galerie"
+    },
+    {
+     "key": "showAllArtists",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Show all {n}",
+     "de": "Alle {n} anzeigen"
+    },
+    {
+     "key": "showFewerArtists",
+     "kind": "text",
+     "params": [],
+     "en": "Show fewer",
+     "de": "Weniger anzeigen"
+    },
+    {
+     "key": "noSaved",
+     "kind": "text",
+     "params": [],
+     "en": "Nothing saved yet",
+     "de": "Noch nichts gemerkt"
+    },
+    {
+     "key": "galleries",
+     "kind": "text",
+     "params": [],
+     "en": "Galleries",
+     "de": "Galerien"
+    },
+    {
+     "key": "specials",
+     "kind": "text",
+     "params": [],
+     "en": "Specials",
+     "de": "Specials"
+    },
+    {
+     "key": "atFair",
+     "kind": "text",
+     "params": [],
+     "en": "At a fair or Art Weekend",
+     "de": "An einer Messe oder am Art Weekend"
+    },
+    {
+     "key": "onNow",
+     "kind": "text",
+     "params": [],
+     "en": "On now",
+     "de": "Jetzt zu sehen"
+    },
+    {
+     "key": "comingUp",
+     "kind": "text",
+     "params": [],
+     "en": "Coming up",
+     "de": "Demnächst"
+    },
+    {
+     "key": "artists",
+     "kind": "text",
+     "params": [],
+     "en": "Artists",
+     "de": "Künstler:innen"
+    },
+    {
+     "key": "hours",
+     "kind": "text",
+     "params": [],
+     "en": "Opening hours",
+     "de": "Öffnungszeiten"
+    },
+    {
+     "key": "address",
+     "kind": "text",
+     "params": [],
+     "en": "Address",
+     "de": "Adresse"
+    },
+    {
+     "key": "website",
+     "kind": "text",
+     "params": [],
+     "en": "Website",
+     "de": "Website"
+    },
+    {
+     "key": "directions",
+     "kind": "text",
+     "params": [],
+     "en": "Route",
+     "de": "Route"
+    },
+    {
+     "key": "dzgPage",
+     "kind": "text",
+     "params": [],
+     "en": "Page on dzg.ch",
+     "de": "Seite auf dzg.ch"
+    },
+    {
+     "key": "zone",
+     "kind": "text",
+     "params": [],
+     "en": "Zone",
+     "de": "Zone"
+    },
+    {
+     "key": "until",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "until {date}",
+     "de": "bis {date}"
+    },
+    {
+     "key": "from",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "from {date}",
+     "de": "ab {date}"
+    },
+    {
+     "key": "photoCredit",
+     "kind": "text",
+     "params": [],
+     "en": "Photo: dzg.ch",
+     "de": "Foto: dzg.ch"
+    },
+    {
+     "key": "walkFromHb",
+     "kind": "text",
+     "params": [],
+     "en": "from Zürich HB",
+     "de": "ab Zürich HB"
+    },
+    {
+     "key": "onFoot",
+     "kind": "text",
+     "params": [],
+     "en": "on foot",
+     "de": "zu Fuss"
+    },
+    {
+     "key": "galleryLink",
+     "kind": "template",
+     "params": [
+      {
+       "name": "name",
+       "type": "string"
+      }
+     ],
+     "en": "Open {name}",
+     "de": "{name} öffnen"
+    },
+    {
+     "key": "searchGalleries",
+     "kind": "text",
+     "params": [],
+     "en": "Gallery, artist or show",
+     "de": "Galerie, Künstler:in oder Ausstellung"
+    },
+    {
+     "key": "searchProgramme",
+     "kind": "text",
+     "params": [],
+     "en": "Show or artist",
+     "de": "Ausstellung oder Künstler:in"
+    },
+    {
+     "key": "searchLabel",
+     "kind": "text",
+     "params": [],
+     "en": "Search",
+     "de": "Suchen"
+    },
+    {
+     "key": "noMatch",
+     "kind": "template",
+     "params": [
+      {
+       "name": "q",
+       "type": "string"
+      }
+     ],
+     "en": "No gallery or show matches “{q}”",
+     "de": "Keine Galerie und keine Ausstellung passt zu «{q}»"
+    },
+    {
+     "key": "noMatchProgramme",
+     "kind": "template",
+     "params": [
+      {
+       "name": "q",
+       "type": "string"
+      }
+     ],
+     "en": "Nothing in the programme matches “{q}”",
+     "de": "Nichts im Programm passt zu «{q}»"
+    },
+    {
+     "key": "matchShows",
+     "kind": "template",
+     "params": [
+      {
+       "name": "what",
+       "type": "string"
+      }
+     ],
+     "en": "shows {what}",
+     "de": "zeigt {what}"
+    },
+    {
+     "key": "matchRepresents",
+     "kind": "template",
+     "params": [
+      {
+       "name": "artist",
+       "type": "string"
+      }
+     ],
+     "en": "represents {artist}",
+     "de": "vertritt {artist}"
+    },
+    {
+     "key": "fairGalleries",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "at the fair · {n} DZG {n, plural, one {gallery} other {galleries}}",
+     "de": "an der Messe · {n} DZG-{n, plural, one {Galerie} other {Galerien}}"
+    },
+    {
+     "key": "fairRun",
+     "kind": "code",
+     "params": [
+      {
+       "name": "from",
+       "type": "string"
+      },
+      {
+       "name": "to",
+       "type": "string | null"
+      }
+     ]
+    },
+    {
+     "key": "fairVenue",
+     "kind": "text",
+     "params": [],
+     "en": "Venue: see the fair",
+     "de": "Ort: siehe Messe"
+    },
+    {
+     "key": "fairs",
+     "kind": "text",
+     "params": [],
+     "en": "Fairs",
+     "de": "Messen"
+    },
+    {
+     "key": "walk",
+     "kind": "template",
+     "params": [
+      {
+       "name": "zone",
+       "type": "string"
+      }
+     ],
+     "en": "Walk {zone}",
+     "de": "Rundgang {zone}"
+    },
+    {
+     "key": "runningChip",
+     "kind": "text",
+     "params": [],
+     "en": "What’s on now",
+     "de": "Was jetzt läuft"
+    },
+    {
+     "key": "noEnd",
+     "kind": "text",
+     "params": [],
+     "en": "no end date on dzg.ch",
+     "de": "ohne Enddatum auf dzg.ch"
+    },
+    {
+     "key": "nothingOnNow",
+     "kind": "text",
+     "params": [],
+     "en": "No show running today",
+     "de": "Heute läuft keine Ausstellung"
+    },
+    {
+     "key": "walks",
+     "kind": "text",
+     "params": [],
+     "en": "Gallery walks",
+     "de": "Rundgänge"
+    },
+    {
+     "key": "walkParts.kunsthaus",
+     "kind": "text",
+     "params": [],
+     "en": "Rämistrasse & Kunsthaus",
+     "de": "Rämistrasse & Kunsthaus"
+    },
+    {
+     "key": "walkParts.seefeld",
+     "kind": "text",
+     "params": [],
+     "en": "Seefeld",
+     "de": "Seefeld"
+    },
+    {
+     "key": "walkSummary",
+     "kind": "code",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      },
+      {
+       "name": "minutes",
+       "type": "number | null"
+      },
+      {
+       "name": "km",
+       "type": "string"
+      }
+     ]
+    },
+    {
+     "key": "walkToday",
+     "kind": "text",
+     "params": [],
+     "en": "Open today, in walking order from where you are.",
+     "de": "Heute offen, in Laufreihenfolge ab deinem Standort."
+    },
+    {
+     "key": "walkOtherDay",
+     "kind": "template",
+     "params": [
+      {
+       "name": "day",
+       "type": "string"
+      }
+     ],
+     "en": "Nothing open here today any more. The walk for {day}:",
+     "de": "Heute ist hier nichts mehr offen. Der Rundgang für {day}:"
+    },
+    {
+     "key": "walkNext",
+     "kind": "text",
+     "params": [],
+     "en": "Route to the next",
+     "de": "Route zur nächsten"
+    },
+    {
+     "key": "walkVisited",
+     "kind": "text",
+     "params": [],
+     "en": "Visited",
+     "de": "Besucht"
+    },
+    {
+     "key": "walkMarkVisited",
+     "kind": "text",
+     "params": [],
+     "en": "Mark visited",
+     "de": "Als besucht markieren"
+    },
+    {
+     "key": "walkSkip",
+     "kind": "text",
+     "params": [],
+     "en": "Skip",
+     "de": "Überspringen"
+    },
+    {
+     "key": "walkUnskip",
+     "kind": "text",
+     "params": [],
+     "en": "Back in",
+     "de": "Wieder aufnehmen"
+    },
+    {
+     "key": "walkSkipped",
+     "kind": "text",
+     "params": [],
+     "en": "Skipped",
+     "de": "Übersprungen"
+    },
+    {
+     "key": "walkRestart",
+     "kind": "text",
+     "params": [],
+     "en": "Start again",
+     "de": "Neu beginnen"
+    },
+    {
+     "key": "walkDone",
+     "kind": "text",
+     "params": [],
+     "en": "Walk done. All stops visited or skipped.",
+     "de": "Rundgang fertig. Alle Stationen besucht oder übersprungen."
+    },
+    {
+     "key": "walkLeg",
+     "kind": "template",
+     "params": [
+      {
+       "name": "m",
+       "type": "number"
+      }
+     ],
+     "en": "{m} min to the next",
+     "de": "{m} min zur nächsten"
+    },
+    {
+     "key": "walkWithoutHours",
+     "kind": "text",
+     "params": [],
+     "en": "Without fixed hours",
+     "de": "Ohne feste Zeiten"
+    },
+    {
+     "key": "walkNone",
+     "kind": "text",
+     "params": [],
+     "en": "No gallery in this zone has hours to walk by.",
+     "de": "Keine Galerie dieser Zone hat Öffnungszeiten für einen Rundgang."
+    },
+    {
+     "key": "info",
+     "kind": "text",
+     "params": [],
+     "en": "Info",
+     "de": "Info"
+    },
+    {
+     "key": "sections",
+     "kind": "text",
+     "params": [],
+     "en": "Sections",
+     "de": "Bereiche"
+    },
+    {
+     "key": "partnerLine",
+     "kind": "text",
+     "params": [],
+     "en": "In cooperation with Die Zürcher Galerien · dzg.ch",
+     "de": "In Kooperation mit Die Zürcher Galerien · dzg.ch"
+    },
+    {
+     "key": "partnerWith",
+     "kind": "text",
+     "params": [],
+     "en": "In cooperation with",
+     "de": "In Kooperation mit"
+    },
+    {
+     "key": "dzgName",
+     "kind": "text",
+     "params": [],
+     "en": "Die Zürcher Galerien",
+     "de": "Die Zürcher Galerien"
+    },
+    {
+     "key": "infoAbout",
+     "kind": "template",
+     "params": [
+      {
+       "name": "n",
+       "type": "number"
+      }
+     ],
+     "en": "Die Zürcher Galerien, the association of {n} galleries in five zones.",
+     "de": "Die Zürcher Galerien, der Verband von {n} Galerien in fünf Zonen."
+    },
+    {
+     "key": "infoZones",
+     "kind": "text",
+     "params": [],
+     "en": "Zones",
+     "de": "Zonen"
+    },
+    {
+     "key": "infoMore",
+     "kind": "text",
+     "params": [],
+     "en": "From DZG",
+     "de": "Von der DZG"
+    },
+    {
+     "key": "infoCityMap",
+     "kind": "text",
+     "params": [],
+     "en": "DZG city map",
+     "de": "Stadtplan der DZG"
+    },
+    {
+     "key": "infoWebsite",
+     "kind": "text",
+     "params": [],
+     "en": "dzg.ch",
+     "de": "dzg.ch"
+    },
+    {
+     "key": "infoData",
+     "kind": "template",
+     "params": [
+      {
+       "name": "date",
+       "type": "string"
+      }
+     ],
+     "en": "Data from dzg.ch, read on {date}.",
+     "de": "Daten von dzg.ch, abgerufen am {date}."
+    },
+    {
+     "key": "infoPhotos",
+     "kind": "text",
+     "params": [],
+     "en": "Photos: dzg.ch, the galleries.",
+     "de": "Fotos: dzg.ch, die Galerien."
+    },
+    {
+     "key": "partnerNote",
+     "kind": "text",
+     "params": [],
+     "en": "",
+     "de": ""
+    }
+   ]
+  }
+ ]
+}
